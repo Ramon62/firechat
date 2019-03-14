@@ -2,7 +2,6 @@
 
 <!--ts-->
    * [TABLA DE CONTENIDOS](#table-of-contents)
-   * [ ](#installation)
    * [1. INTRODUCCIÓN](#INTRODUCCIÓN)
       * [1.1 PROPÓSITO](#PROPÓSITO)
       * [1.2 ALCANCE](#ALCANCE)
@@ -40,6 +39,7 @@
         * [3.2.2 USABILIDAD](#USABILIDAD)
         * [3.2.3 RENDIMIENTO](#RENDIMIENTO)
         * [3.2.4 DISPONIBILIDAD](#DISPONIBILIDAD)
+    * [4. FIRECHAT](#FIRECHAT)
 <!--te-->
 
 INTRODUCCIÓN
@@ -64,7 +64,7 @@ DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES
 ---------------------------------------
 
 
-# Firechat
+# FIRECHAT
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
