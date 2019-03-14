@@ -5,8 +5,8 @@
    * [ ](#installation)
    * [1. INTRODUCCIÓN](#INTRODUCCIÓN)
       * [1.1 PROPÓSITO](#PROPÓSITO)
-      * [1.2 ALCANCE](#intro2)
-      * [1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES](#intro3)
+      * [1.2 ALCANCE](#ALCANCE)
+      * [1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES](#DEFINICIONES)
    * [2. DESCRICIÓN GLOBAL](#usage)
       * [2.1 PRESPECTIVA DEL PRODUCTO](#stdin)
         * [2.1.1 INTERFACES CON EL SISTEMA ](#local-files1)
@@ -28,7 +28,7 @@
     
 <!--te-->
 
-1.INTRODUCCIÓN
+INTRODUCCIÓN
 ===============
 
 Casi todas las aplicaciones móviles que se tienen que construir hoy tienen como necesidad que usuarios puedan comunicarse en grupo o en un chat persona a persona. 
@@ -39,12 +39,15 @@ Si estas empezando en el mundo del desarrollo, configurar un backend por tu cuen
 
 Ahí es donde Firebase de Google (firebase.google.com). Nos proporciona un backend móvil que incluye almacenamiento de archivos e informes de fallos.  Es una plataforma SaS (Software como Servicio) para el almacenamiento y sincronización de datos en la nube para aplicaciones en la que nos basaremos para desarrollar nuestro chat.
 
+PROPÓSITO
+----------
+El propósito de este documento es presentar una descripción detallada de la implementación de un chat a tiempo real. Este chat está creado con una base de datos NoSQL como es firebase de la compañía de Google, con la cual podemos almacenar datos a tiempo real sin una estructura determinada ni relacionada. 
 
+ALCANCE
+--------
 
-
-
-
-
+DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES
+---------------------------------------
 
 
 # Firechat
