@@ -2,7 +2,11 @@
 
 <!--ts-->
    * [TABLA DE CONTENIDOS](#table-of-contents)
-   * [Installation ](#installation)
+   * [ ](#installation)
+   * [1. INTRODUCIÓN](#intro)
+      * [1.1 PROPÓSITO](#intro1)
+      * [1.2 ALCANCE](#intro2)
+      * [1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES](#intro3)
    * [2. DESCRICIÓN GLOBAL](#usage)
       * [2.1 PRESPECTIVA DEL PRODUCTO](#stdin)
         * [2.1.1 INTERFACES CON EL SISTEMA ](#local-files1)
@@ -13,17 +17,19 @@
         * [2.1.6 INTERFACES DE MEMORIA](#local-files6)
         * [2.1.7 OPERACIONES](#local-files7)
         * [2.1.8 REQUERIMIENTOS DE ADATACIÓN AL SITIO](#local-files8)
-      * [2.2 FUNCIONES DEL PRODUCTO] (#stdin)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-      * [Auto insert and update TOC](#auto-insert-and-update-toc)
-      * [Github token](#github-token)
-   * [Tests](#tests)
-   * [Dependency](#dependency)
+      * [2.2 FUNCIONES DEL PRODUCTO](#stdin2)
+      * [2.3 CARACTERÍSTICAS DEL USUARIO](#stdin3)
+      * [2.4 RESTRICCIONES](#stdin4)
+        * [2.4.1 RESTRCCIONES GENERALES ](#local-files9)
+        * [2.4.2 RESTRICCIONES DE SOFTWARE ](#local-files10)
+        * [2.4.3 RESTRCCIONES DE HARDWARE ](#local-files11)
+      * [2.5 DEPENDENCIAS](#stdin5)
+      * [2.6 DISTRIBUICIÓN DE REQUERIMIENTOS](#stdin6)
+    
 <!--te-->
 
-
+INTRODUCCIÓN
+============
 
 # Firechat
 
