@@ -1,4 +1,19 @@
 
+# FIRECHAT - METODOLOGÍA DE LA PROGRAMACIÓN
+
+### APP Name
+FIRECHAT
+
+### Group members
+
+| Name and Surname     |Mail		   | Github        |
+|:--------------------:|:-----------:|:--------------:|
+| Restituto Esono Bayeme Mbang| re.beyeme@alumnos.urjc.es | re-beyeme |
+| Ramon|  r.serranoro@alumnos.urjc.esr  |  Ramon62  |
+|   | | VictoriaMG   |
+| Ernesto Baltasar Nve Obono | eb.nve@alumnos.urjc.es    |   nveobono     |
+|   | | casanova2   |
+|   | |  cddogaru  |
 
 <!--ts-->
    * [TABLA DE CONTENIDOS](#table-of-contents)
