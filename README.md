@@ -28,7 +28,7 @@
     
 <!--te-->
 
-INTRODUCCIÓN
+intro
 ============
 
 # Firechat
