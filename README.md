@@ -1,3 +1,30 @@
+
+
+<!--ts-->
+   * [TABLA DE CONTENIDOS](#table-of-contents)
+   * [Installation ](#installation)
+   * [Usage](#usage)
+      * [2.1 PRESPECTIVA DEL PRODUCTO](#stdin)
+        * [2.1.1 INTERFACES CON EL SISTEMA ](#local-files)
+        * [2.1.2 INTERFACES CON EL USUARIO ](#local-files)
+        * [2.1.3 INTERFACES CON EL HARDWARE ](#local-files)
+        * [2.1.4 INTERFACES CON EL SOFTWARE](#local-files)
+        * [2.1.5 INTERFACES DE COMUNICACIÓN](#local-files)
+        * [2.1.6 INTERFACES DE MEMORIA](#local-files)
+        * [2.1.7 OPERACIONES](#local-files)
+        * [2.1.8 REQUERIMIENTOS DE ADATACIÓN AL SITIO](#local-files)
+       
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+      * [Auto insert and update TOC](#auto-insert-and-update-toc)
+      * [Github token](#github-token)
+   * [Tests](#tests)
+   * [Dependency](#dependency)
+<!--te-->
+
+
+
 # Firechat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
