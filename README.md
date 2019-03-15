@@ -59,46 +59,52 @@ CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 TABLA DE CONTENIDOS
 ===================
 
--   [1. INTRODUCCIÓN](#INTRODUCCIÓN)
+-   [1. INTRODUCCIÓN](#INTRODUCCION)
 
-    -   [1.1 PROPÓSITO](#PROPÓSITO)
+    -   [1.1 PROPÓSITO](#PROPOSITO)
 
-    -   [1.2 ÁMBITO](#ALCANCE) DEL SISTEMA
+    -   [1.2 ÁMBITO DEL SISTEMA](#AMBITO)
 
     -   [1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES](#DEFINICIONES)
 
-    -   1.4 REFERENCIAS
+    -   [1.4 REFERENCIAS](#REFERENCIAS)
 
-    -   1.5 VISIÓN GENERAL DEL DOCUMENTO
+    -   [1.5 VISIÓN GENERAL DEL DOCUMENTO](#VISION)
 
--   [2. DESCRICIÓN GENERAL](#usage)
+-   [2. DESCRICIÓN GENERAL](#DESGENERAL)
 
-    -   [2.1 PRESPECTIVA DEL PRODUCTO](#stdin)
+    -   [2.1 PRESPECTIVA DEL PRODUCTO](#PRESPECTIVA)
 
-    -   [2.2 FUNCIONES DEL PRODUCTO](#stdin2)
+    -   [2.2 FUNCIONES DEL PRODUCTO](#FUNCIONES)
 
-    -   [2.3 CARACTERÍSTICAS DE LOS USUARIO](#stdin3)S
+    -   [2.3 CARACTERÍSTICAS DE LOS USUARIO](#CARACTERISTICAS)
 
-    -   [2.4 RESTRICCIONES](#stdin4)
+    -   [2.4 RESTRICCIONES](#RESTRICCIONES)
 
-    -   [2.5 SUPOSICIONES Y DEPENDENCIAS](#DEPENDENCIAS)
+    -   [2.5 SUPOSICIONES Y DEPENDENCIAS](#SUPOSICIONES)
 
-    -   [2.6 REQUERIMIENTOS](#stdin6) FUTUROS
+    -   [2.6 REQUERIMIENTOS FUTUROS](#REQFUTUROS) 
 
--   [3. REQUERIMIENTOS ESPECÍFICOS](#REQUERIMIENTOS)
+-   [3. REQUISITOS ESPECÍFICOS](#REQESPECIFICOS)
 
-    -   3.1 INTERFAZ
+    -   [3.1 INTERFAZ](#INTERFAZ)
 
--   [4.](#FIRECHAT) APÉNDICE
+    -   [3.2 REQUISITOS FUNCIONALES](#REQFUNCIONALES)
 
-1 INTRODUCCIÓN
+    -   [3.3 REQUISITOS NO FUNCIONALES](#REQNOFUNCIONALES)
+
+    -   [3.4 OTROS REQUISITOS](#OTROS)
+
+-   [4. APÉNDICE](#APENDICE)
+
+1 INTRODUCCIÓN<a name="INTRODUCCION"></a>
 ===============
 
 En el presente documento se explicarán y analizarán los requisitos del proyecto
 “Firechat”, desarrollado para la clase de la asignatura de Metodología de la
 Programación.
 
-1.1 PROPÓSITO
+1.1 PROPÓSITO<a name="PROPOSITO"></a>
 -------------
 
 El propósito de este documento es presentar una descripción detallada de la
@@ -112,7 +118,7 @@ Si estas empezando en el mundo del desarrollo, configurar un backend por tu cuen
 
 Ahí es donde Firebase de Google (firebase.google.com), nos proporciona un backend móvil que incluye almacenamiento de archivos e informes de fallos. Es una plataforma SaS (Software como Servicio) para el almacenamiento y sincronización de datos en la nube, para aplicaciones en la que nos basaremos en desarrollar nuestro chat.
 
-1.2 ÁMBITO DEL SISTEMA
+1.2 ÁMBITO DEL SISTEMA<a name="AMBITO"></a>
 ----------------------
 
 -   Nombre del Sistema: Firechat.
@@ -127,7 +133,7 @@ Ahí es donde Firebase de Google (firebase.google.com), nos proporciona un backe
 -   El objetivo puede ser cualquiera que se desee, pero principalmente se suele
     usar para optimizer los procesos en tiempo y recursos de una organización.
 
-1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES
+1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES<a name="DEFINICIONES"></a>
 -------------------------------------------
 
 NoSQL – Bases de datos no relacional.
@@ -136,12 +142,12 @@ BD – Bases de datos.
 
 UML – Lenguaje de modelado unificado.
 
-1.4 REFERENCIAS
+1.4 REFERENCIAS<a name="REFERENCIAS"></a>
 ---------------
 
 POR HACER
 
-1.5 VISIÓN GENERAL DEL DOCUMENTO
+1.5 VISIÓN GENERAL DEL DOCUMENTO<a name="VISION"></a>
 --------------------------------
 
 El document está dividido en 4 secciones:
@@ -157,7 +163,7 @@ El document está dividido en 4 secciones:
 
 -   La sección 4 son los apéndices.
 
-2 DESCRIPCIÓN GENERAL
+2 DESCRIPCIÓN GENERAL<a name="DESGENERAL"></a>
 ======================
 
 Existen factores generales que afectan al software y sus requerimientos. En esta
@@ -165,7 +171,7 @@ sección se identifican estos factores como el context al desarrollo del Sistema
 Algunos de estos factores son los costs, el tiempo de las fases de desarrollo y
 la disponibilidad del cliente.
 
-2.1 PRESPECTIVA DEL PRODUCTO
+2.1 PRESPECTIVA DEL PRODUCTO<a name="PRESPECTIVA"></a>
 ----------------------------
 
 El software final permite la comunicación entre usuarios de cualquier tipo de
@@ -175,7 +181,7 @@ tener que registrarse previamente.
 
 Hacer diagram de bloques y ponerlo en el apéndice.
 
-2.2 FUNCIONES DEL PRODUCTO
+2.2 FUNCIONES DEL PRODUCTO<a name="FUNCIONES"></a>
 --------------------------
 
 -   Inicio de sesión con cuenta de Google.
@@ -192,12 +198,12 @@ Hacer diagram de bloques y ponerlo en el apéndice.
 
 -   Cierre de sesión.
 
-2.3 CARACTERÍSTICAS DE LOS USUARIOS
+2.3 CARACTERÍSTICAS DE LOS USUARIOS<a name="CARACTERISTICAS"></a>
 -----------------------------------
 
 Por hacer
 
-2.4 RESTRICCIONES
+2.4 RESTRICCIONES<a name="RESTRICCIONES"></a>
 -----------------
 
 Se debe hacer uso de protocolos de intercambio de datos vía internet de manera
@@ -211,13 +217,13 @@ seguridad del mismo.
 
 Añadir más
 
-2.5 SUPOSICIONES Y DEPENDENCIAS
+2.5 SUPOSICIONES Y DEPENDENCIAS<a name="SUPOSICIONES"></a>
 -------------------------------
 
 Lo único necesario y requerido para un correcto funcionamiento del Sistema es la
 instalación de un navegador moderno y actualizado.
 
-2.6 REQUERIMIENTOS FUTUROS
+2.6 REQUERIMIENTOS FUTUROS<a name="REQFUTUROS"></a>
 --------------------------
 
 En versions futuras se debe implementar la siguiente serie de puntos:
@@ -232,20 +238,20 @@ En versions futuras se debe implementar la siguiente serie de puntos:
 
 -   Administración de contactos.
 
-3 REQUERIMIENTOS ESPECÍFICOS
+3 REQUISITOS ESPECÍFICOS<a name="REQESPECIFICOS"></a>
 =============================
 
-3.1 INTERFAZ
+3.1 INTERFAZ<a name="INTERFAZ"></a>
 ------------
 
-3.2 REQUISITOS FUNCIONALES
+3.2 REQUISITOS FUNCIONALES<a name="REQFUNCIONALES"></a>
 --------------------------
 
-3.3 REQUISITOS NO FUNCIONALES
+3.3 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
 
-3.4 OTROS REQUISITOS
+3.4 OTROS REQUISITOS<a name="OTROSREQ"></a>
 --------------------
 
-4 APÉNCIDE
+4 APÉNCIDE<a name="APENDICE"></a>
 ===========
