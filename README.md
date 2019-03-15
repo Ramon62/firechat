@@ -3,7 +3,7 @@ FIRECHAT - METODOLOGÍA DE LA PROGRAMACIÓN
 
 APP NAME
 ------------------
-FIRECHAT
+FIRECHAT - https://firechat-f7b1b.firebaseapp.com/
 
 GROUP MEMBERS
 ------------------
