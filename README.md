@@ -12,7 +12,7 @@ GROUP MEMBERS
 |------------------------------|--------------------------------|------------|
 | Restituto Esono Bayeme Mbang | <re.beyeme@alumnos.urjc.es>    | re-beyeme  |
 | Ramon                        | <r.serranoro@alumnos.urjc.esr> | Ramon62    |
-|                              |                                | VictoriaMG |
+| María Victoria Marcos Gómez  | <mv.marcos@alumnos.urjc.es>    | VictoriaMG |
 | Ernesto Baltasar Nve Obono   | <eb.nve@alumnos.urjc.es>       | nveobono   |
 | Rubén Calvo Martínez         | <r.calvoma@alumnos.urjc.es>    | Casanova2  |
 |                              |                                | cddogaru   |
@@ -220,7 +220,7 @@ Añadir más
 2.5 SUPOSICIONES Y DEPENDENCIAS<a name="SUPOSICIONES"></a>
 -------------------------------
 
-Lo único necesario y requerido para un correcto funcionamiento del Sistema es la
+Lo único necesario y requerido para un correcto funcionamiento del sistema es la
 instalación de un navegador moderno y actualizado.
 
 2.6 REQUERIMIENTOS FUTUROS<a name="REQFUTUROS"></a>
@@ -246,6 +246,21 @@ En versions futuras se debe implementar la siguiente serie de puntos:
 
 3.2 REQUISITOS FUNCIONALES<a name="REQFUNCIONALES"></a>
 --------------------------
+| Codigo   | Titulo                      | Descripcion| Prioridad  | Modificable  |
+|--------- |-----------------------------|------------|------------|--------------|
+| RF-UC-01 | Controlar acceso al sistema | Se protegerá el acceso al sistema haciendo que los usuarios se tengan que registrar o logar previamente|  Alta | No          
+| RF-UC-02 | Acceso con cuenta de Google | Se permitirá el acceso al sistema utilizando una cuenta de Google|  Alta | No   
+| RF-UC-03 | Acceso con cuenta de Twitter | Se permitirá el acceso al sistema utilizando una cuenta de Twitter|  Alta | No     
+| RF-UC-04 | Comunicación entre pares | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
+| RF-UC-05 | Comunicación en grupos | Se permitirá la comunicación entre varios usuarios|  Media | No    
+| RF-UC-06 | Recordar usuarios | El sistema proveerá mecanismos para que el usuario quede guardado en el sistema |  Alta | No 
+| RF-UC-07 | Acceso automático | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No 
+| RF-UC-08 | Conversación | Los usuarios podrán interactuar con otros usuarios escribiendo sobre el recuadro de enviar mensaje y pulsando intro.|  Alta | No 
+| RF-UC-09 | Visualización de mensajes propios | Los usuarios podrán visualizar sus mensajes en el chat.|  Alta | No 
+| RF-UC-10 | Distinción por color mensajes propios | Los usuarios podrán distinguir sus mensajes en el chat con el color azul.|  Media | Si
+| RF-UC-11 | Visualización de mensajes de otros usuarios | Los usuarios podrán visualizar los mensajes de otros usuarios en el chat.|  Alta | No 
+| RF-UC-12 | Distinción por color mensajes propios | Los usuarios podrán distinguir los mensajes de otros usuarios en el chat con el color verde.|  Media | Si
+| RF-UC-13 | Cerrar sesión | Los usuarios podrán cerrar la sesión del chat pulsando sobre el boton salir.|  Alta | No
 
 3.3 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
