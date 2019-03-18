@@ -240,6 +240,15 @@ En versions futuras se debe implementar la siguiente serie de puntos:
 
 3 REQUISITOS ESPECÍFICOS<a name="REQESPECIFICOS"></a>
 =============================
+#### ***Código de requisito*** ####
+Para identificar de forma univoca un requisito cada requisito tendrá un nombre antes del propio nombre del requisito. 
+El código comenzará por las letras:
+
+ -RF: requisito funcional
+ 
+ -RN: requisito no funcional
+ 
+  continuado por las letras FC que hacen referencia a la aplicación ***firechat***, y un número para indicar el orden del requisito, todo ello reparado por guiones para aumentar su legibilidad.
 
 3.1 INTERFAZ<a name="INTERFAZ"></a>
 ------------
@@ -248,19 +257,19 @@ En versions futuras se debe implementar la siguiente serie de puntos:
 --------------------------
 | Codigo   | Titulo                      | Descripcion| Prioridad  | Modificable  |
 |--------- |-----------------------------|------------|------------|--------------|
-| RF-UC-01 | Controlar acceso al sistema | Se protegerá el acceso al sistema haciendo que los usuarios se tengan que registrar o logar previamente|  Alta | No          
-| RF-UC-02 | Acceso con cuenta de Google | Se permitirá el acceso al sistema utilizando una cuenta de Google|  Alta | No   
-| RF-UC-03 | Acceso con cuenta de Twitter | Se permitirá el acceso al sistema utilizando una cuenta de Twitter|  Alta | No     
-| RF-UC-04 | Comunicación entre pares | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
-| RF-UC-05 | Comunicación en grupos | Se permitirá la comunicación entre varios usuarios|  Media | No    
-| RF-UC-06 | Recordar usuarios | El sistema proveerá mecanismos para que el usuario quede guardado en el sistema |  Alta | No 
-| RF-UC-07 | Acceso automático | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No 
-| RF-UC-08 | Conversación | Los usuarios podrán interactuar con otros usuarios escribiendo sobre el recuadro de enviar mensaje y pulsando intro.|  Alta | No 
-| RF-UC-09 | Visualización de mensajes propios | Los usuarios podrán visualizar sus mensajes en el chat.|  Alta | No 
-| RF-UC-10 | Distinción por color mensajes propios | Los usuarios podrán distinguir sus mensajes en el chat con el color azul.|  Media | Si
-| RF-UC-11 | Visualización de mensajes de otros usuarios | Los usuarios podrán visualizar los mensajes de otros usuarios en el chat.|  Alta | No 
-| RF-UC-12 | Distinción por color mensajes propios | Los usuarios podrán distinguir los mensajes de otros usuarios en el chat con el color verde.|  Media | Si
-| RF-UC-13 | Cerrar sesión | Los usuarios podrán cerrar la sesión del chat pulsando sobre el boton salir.|  Alta | No
+| RF-FC-01 | Controlar acceso al sistema | Se protegerá el acceso al sistema haciendo que los usuarios se tengan que registrar o logar previamente|  Alta | No          
+| RF-FC-02 | Acceso con cuenta de Google | Se permitirá el acceso al sistema utilizando una cuenta de Google|  Alta | No   
+| RF-FC-03 | Acceso con cuenta de Twitter | Se permitirá el acceso al sistema utilizando una cuenta de Twitter|  Alta | No     
+| RF-FC-04 | Comunicación entre pares | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
+| RF-FC-05 | Comunicación en grupos | Se permitirá la comunicación entre varios usuarios|  Media | No    
+| RF-FC-06 | Recordar usuarios | El sistema proveerá mecanismos para que el usuario quede guardado en el sistema |  Alta | No 
+| RF-FC-07 | Acceso automático | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No 
+| RF-FC-08 | Conversación | Los usuarios podrán interactuar con otros usuarios escribiendo sobre el recuadro de enviar mensaje y pulsando intro.|  Alta | No 
+| RF-FC-09 | Visualización de mensajes propios | Los usuarios podrán visualizar sus mensajes en el chat.|  Alta | No 
+| RF-FC-10 | Distinción por color mensajes propios | Los usuarios podrán distinguir sus mensajes en el chat con el color azul.|  Media | Si
+| RF-FC-11 | Visualización de mensajes de otros usuarios | Los usuarios podrán visualizar los mensajes de otros usuarios en el chat.|  Alta | No 
+| RF-FC-12 | Distinción por color mensajes propios | Los usuarios podrán distinguir los mensajes de otros usuarios en el chat con el color verde.|  Media | Si
+| RF-FC-13 | Cerrar sesión | Los usuarios podrán cerrar la sesión del chat pulsando sobre el boton salir.|  Alta | No
 
 3.3 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
