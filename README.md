@@ -11,7 +11,7 @@ GROUP MEMBERS
 | Name and Surname             | Mail                           | Github     |
 |------------------------------|--------------------------------|------------|
 | Restituto Esono Bayeme Mbang | <re.beyeme@alumnos.urjc.es>    | re-beyeme  |
-| Ramon                        | <r.serranoro@alumnos.urjc.esr> | Ramon62    |
+| Ramon Serrano Rodriguez      | <r.serranoro@alumnos.urjc.esr> | Ramon62    |
 | María Victoria Marcos Gómez  | <mv.marcos@alumnos.urjc.es>    | VictoriaMG |
 | Ernesto Baltasar Nve Obono   | <eb.nve@alumnos.urjc.es>       | nveobono   |
 | Rubén Calvo Martínez         | <r.calvoma@alumnos.urjc.es>    | Casanova2  |
