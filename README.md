@@ -273,9 +273,30 @@ El código comenzará por las letras:
 
 3.3 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
+| Codigo   | Titulo                      | Descripcion| Prioridad  | Modificable  |
+|--------- |-----------------------------|------------|------------|--------------|
+| RN-FC-01 | Eficiencia | El sistema debe de ser capaz de procesar 2 transacciones|  Alta | Si          
+| RN-FC-02 | Eficiencia | Toda trasaccion debe de responder en menos de 5 segundos|  Alta | No   
+| RN-FC-03 | Eficiencia | El sistema debe de ser capaz de operar con 3 usuarios máximo|  Alta | No     
+| RN-FC-04 | Eficiencia | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
+| RN-FC-05 | Seguridad | Los permsos de acceso al sistema deben de ser cambiados solamente por el administrador|  Alta | No    
+| RN-FC-06 | Seguridad | El sistema debe de desarrollarse aplicando patrones de diseño |  Alta | No 
+| RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No 
+| RN-FC-08 | Usabilidad | El tiempo de aprendizaje debe de ser inferiror a 2 hora|  Media | No 
+| RN-FC-09 | Usabilidad | La tasa de errores de los usuarios tiene que ser meor al 1%|  Media | Si 
+| RN-FC-10 | Usabilidad | La aplicacion debe de poseer un diseño responsive|  Media | Si
+| RN-FC-11 | Dependibilidad | El sistema debe estar disponible el 99.99% del tiempo|  Alta | No 
+| RN-FC-12 | Dependibilidad | La interfaz web debe ser implementada para navegadores web con HTML5 y JavaScript|  Media | Si
 
 3.4 OTROS REQUISITOS<a name="OTROSREQ"></a>
 --------------------
+- La metodología de desarrollo de software a usar debe de ser la metodología SCRUM
+siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famoso Given, When, Then
+
+- Flujos de trabajo basados en Sprint de 2 o 3 semanas
+
+- La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugues, Italiano)
+
 
 4 APÉNCIDE<a name="APENDICE"></a>
 ===========
