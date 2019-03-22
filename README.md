@@ -298,5 +298,5 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 - La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugues, Italiano)
 
 
-4 APÉNCIDE<a name="APENDICE"></a>
+4 APÉNDICE<a name="APENDICE"></a>
 ===========
