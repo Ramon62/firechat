@@ -299,3 +299,6 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 
 4 APÉNDICE<a name="APENDICE"></a>
 ------------------
+Diagrama de Secuencia de la Aplicación
+--------------------------------------
+![diagramaSecuencia](https://user-images.githubusercontent.com/32453276/54840295-f5a85580-4ccc-11e9-98a7-5d05af00b39f.jpeg)
