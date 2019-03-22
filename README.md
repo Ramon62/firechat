@@ -11,7 +11,7 @@ GROUP MEMBERS
 | Name and Surname             | Mail                           | Github     |
 |------------------------------|--------------------------------|------------|
 | Restituto Esono Bayeme Mbang | <re.beyeme@alumnos.urjc.es>    | re-beyeme  |
-| Ramon                        | <r.serranoro@alumnos.urjc.esr> | Ramon62    |
+| Ramon Serrano Rodriguez      | <r.serranoro@alumnos.urjc.esr> | Ramon62    |
 | María Victoria Marcos Gómez  | <mv.marcos@alumnos.urjc.es>    | VictoriaMG |
 | Ernesto Baltasar Nve Obono   | <eb.nve@alumnos.urjc.es>       | nveobono   |
 | Rubén Calvo Martínez         | <r.calvoma@alumnos.urjc.es>    | Casanova2  |
@@ -83,7 +83,7 @@ TABLA DE CONTENIDOS
 
     -   [2.5 SUPOSICIONES Y DEPENDENCIAS](#SUPOSICIONES)
 
-    -   [2.6 REQUERIMIENTOS FUTUROS](#REQFUTUROS) 
+    -   [2.6 REQUERIMIENTOS FUTUROS](#REQFUTUROS)
 
 -   [3. REQUISITOS ESPECÍFICOS](#REQESPECIFICOS)
 
@@ -241,13 +241,13 @@ En versions futuras se debe implementar la siguiente serie de puntos:
 3 REQUISITOS ESPECÍFICOS<a name="REQESPECIFICOS"></a>
 =============================
 #### ***Código de requisito*** ####
-Para identificar de forma univoca un requisito cada requisito tendrá un nombre antes del propio nombre del requisito. 
+Para identificar de forma univoca un requisito cada requisito tendrá un nombre antes del propio nombre del requisito.
 El código comenzará por las letras:
 
  -RF: requisito funcional
- 
+
  -RN: requisito no funcional
- 
+
   continuado por las letras FC que hacen referencia a la aplicación ***firechat***, y un número para indicar el orden del requisito, todo ello reparado por guiones para aumentar su legibilidad.
 
 3.1 INTERFAZ<a name="INTERFAZ"></a>
@@ -262,20 +262,39 @@ El código comenzará por las letras:
 | RF-FC-03 | Acceso con cuenta de Twitter | Se permitirá el acceso al sistema utilizando una cuenta de Twitter|  Alta | No     
 | RF-FC-04 | Comunicación entre pares | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
 | RF-FC-05 | Comunicación en grupos | Se permitirá la comunicación entre varios usuarios|  Media | No    
-| RF-FC-06 | Recordar usuarios | El sistema proveerá mecanismos para que el usuario quede guardado en el sistema |  Alta | No 
-| RF-FC-07 | Acceso automático | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No 
-| RF-FC-08 | Conversación | Los usuarios podrán interactuar con otros usuarios escribiendo sobre el recuadro de enviar mensaje y pulsando intro.|  Alta | No 
-| RF-FC-09 | Visualización de mensajes propios | Los usuarios podrán visualizar sus mensajes en el chat.|  Alta | No 
+| RF-FC-06 | Recordar usuarios | El sistema proveerá mecanismos para que el usuario quede guardado en el sistema |  Alta | No
+| RF-FC-07 | Acceso automático | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
+| RF-FC-08 | Conversación | Los usuarios podrán interactuar con otros usuarios escribiendo sobre el recuadro de enviar mensaje y pulsando intro.|  Alta | No
+| RF-FC-09 | Visualización de mensajes propios | Los usuarios podrán visualizar sus mensajes en el chat.|  Alta | No
 | RF-FC-10 | Distinción por color mensajes propios | Los usuarios podrán distinguir sus mensajes en el chat con el color azul.|  Media | Si
-| RF-FC-11 | Visualización de mensajes de otros usuarios | Los usuarios podrán visualizar los mensajes de otros usuarios en el chat.|  Alta | No 
+| RF-FC-11 | Visualización de mensajes de otros usuarios | Los usuarios podrán visualizar los mensajes de otros usuarios en el chat.|  Alta | No
 | RF-FC-12 | Distinción por color mensajes propios | Los usuarios podrán distinguir los mensajes de otros usuarios en el chat con el color verde.|  Media | Si
 | RF-FC-13 | Cerrar sesión | Los usuarios podrán cerrar la sesión del chat pulsando sobre el boton salir.|  Alta | No
 
 3.3 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
+| Codigo   | Titulo                      | Descripcion| Prioridad  | Modificable  |
+|--------- |-----------------------------|------------|------------|--------------|
+| RN-FC-01 | Eficiencia | El sistema debe de ser capaz de procesar 2 transacciones|  Alta | Si          
+| RN-FC-02 | Eficiencia | Toda trasaccion debe de responder en menos de 5 segundos|  Alta | No   
+| RN-FC-03 | Eficiencia | El sistema debe de ser capaz de operar con 3 usuarios máximo|  Alta | No     
+| RN-FC-04 | Eficiencia | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
+| RN-FC-05 | Seguridad | Los permsos de acceso al sistema deben de ser cambiados solamente por el administrador|  Alta | No    
+| RN-FC-06 | Seguridad | El sistema debe de desarrollarse aplicando patrones de diseño |  Alta | No
+| RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
+| RN-FC-08 | Usabilidad | El tiempo de aprendizaje debe de ser inferiror a 2 hora|  Media | No
+| RN-FC-09 | Usabilidad | La tasa de errores de los usuarios tiene que ser meor al 1%|  Media | Si
+| RN-FC-10 | Usabilidad | La aplicacion debe de poseer un diseño responsive|  Media | Si
+| RN-FC-11 | Dependibilidad | El sistema debe estar disponible el 99.99% del tiempo|  Alta | No
+| RN-FC-12 | Dependibilidad | La interfaz web debe ser implementada para navegadores web con HTML5 y JavaScript|  Media | Si
 
 3.4 OTROS REQUISITOS<a name="OTROSREQ"></a>
 --------------------
+- La metodología de desarrollo de software a usar debe de ser la metodología SCRUM
+siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famoso Given, When, Then
 
-4 APENDICE<a name="APENDICE"></a>
-===========
+- Flujos de trabajo basados en Sprint de 2 o 3 semanas
+
+- La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugues, Italiano)
+
+4 APÉNDICE<a name="APENDICE"></a>
