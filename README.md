@@ -302,3 +302,7 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 Diagrama de Secuencia de la Aplicación
 --------------------------------------
 ![diagramaSecuencia](https://user-images.githubusercontent.com/32453276/54840295-f5a85580-4ccc-11e9-98a7-5d05af00b39f.jpeg)
+
+Diagrama de Clases de la Aplicación
+------------------------------------
+![diagramaSecuencia](https://user-images.githubusercontent.com/32453276/54841974-ed521980-4cd0-11e9-882f-ce43c3f09594.jpeg)
