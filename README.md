@@ -305,4 +305,4 @@ Diagrama de Secuencia de la Aplicación
 
 Diagrama de Clases de la Aplicación
 ------------------------------------
-![diagramaSecuencia](https://user-images.githubusercontent.com/32453276/54841974-ed521980-4cd0-11e9-882f-ce43c3f09594.jpeg)
+![DiagramaClase](https://user-images.githubusercontent.com/32453276/54842110-46ba4880-4cd1-11e9-9006-aefe0c935fae.png)
