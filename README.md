@@ -97,6 +97,8 @@ TABLA DE CONTENIDOS
 
 -   [4. APENDICE](#APENDICE)
 
+-   [5. PROTOTIPO] (#PROTOTIPO)
+
 1 INTRODUCCIÓN<a name="INTRODUCCION"></a>
 ===============
 
@@ -314,3 +316,11 @@ Diagrama de Clases de la Aplicación
 
 ![DiagramaClase](https://user-images.githubusercontent.com/32453276/54842110-46ba4880-4cd1-11e9-9006-aefe0c935fae.png)
 
+5 PROTOTIPO<a name="APENDICE"></a>
+------------------
+Prototipado de la aplicación en dispositivo movil
+--------------------------------------
+
+![iPhone-X-Mockup](https://user-images.githubusercontent.com/10214269/55181907-e7ef4600-518c-11e9-9ed3-75e4eb0035e2.png)
+![iPhone-X-MockupLogIn](https://user-images.githubusercontent.com/10214269/55181908-e7ef4600-518c-11e9-9ec0-b8b02a27c3b3.png)
+![iPhone-X-MockupTeclado](https://user-images.githubusercontent.com/10214269/55181909-e887dc80-518c-11e9-9e78-6286517b6105.png)
