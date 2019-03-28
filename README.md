@@ -327,6 +327,8 @@ Prototipado de la aplicación en dispositivo movil
 <img src="https://user-images.githubusercontent.com/10214269/55182390-d9edf500-518d-11e9-88e6-9059b57bb5ad.png" width="150">
 <img src="https://user-images.githubusercontent.com/10214269/55182394-da868b80-518d-11e9-9ce2-887e8d8ed5d8.png" width="120">
 </div>
+
+------------------
 Prototipado de la aplicación en dispositivo de escritorio
 --------------------------------------
 <div>
