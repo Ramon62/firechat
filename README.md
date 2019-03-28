@@ -335,6 +335,6 @@ Prototipado de la aplicación en dispositivo de escritorio
 <img src="https://user-images.githubusercontent.com/10214269/55184354-318e5f80-5192-11e9-9d8e-ad23155b5622.jpg" width="500">
 <img src="https://user-images.githubusercontent.com/10214269/55184353-30f5c900-5192-11e9-873f-70f9651b3bc6.jpg" width="500">
 </div>
-
+<img src ="https://github.com/Ramon62/firechat/blob/master/documentos/ImagenTablet.png" width = "500">
 
 
