@@ -313,7 +313,7 @@ Diagrama de Despliegue de la Aplicación
 
 Diagrama de Clases de la Aplicación
 ------------------------------------
-
+![Diagrama de la App](https://github.com/Ramon62/firechat/blob/master/documentos/DiagramaApp.png)
 ![DiagramaClase](https://user-images.githubusercontent.com/32453276/54842110-46ba4880-4cd1-11e9-9006-aefe0c935fae.png)
 
 5 PROTOTIPO<a name="PROTOTIPO"></a>
