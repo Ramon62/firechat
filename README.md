@@ -316,7 +316,7 @@ Diagrama de Clases de la Aplicación
 
 ![DiagramaClase](https://user-images.githubusercontent.com/32453276/54842110-46ba4880-4cd1-11e9-9006-aefe0c935fae.png)
 
-5 PROTOTIPO<a name="APENDICE"></a>
+5 PROTOTIPO<a name="PROTOTIPO"></a>
 ------------------
 Prototipado de la aplicación en dispositivo movil
 --------------------------------------
