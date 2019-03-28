@@ -321,9 +321,9 @@ Diagrama de Clases de la Aplicación
 Prototipado de la aplicación en dispositivo movil
 --------------------------------------
 
-![iPhone-X-MockupLogIn](https://user-images.githubusercontent.com/10214269/55182391-d9edf500-518d-11e9-9f33-f6d8cc0d1053.png =1000X500)
+![iPhone-X-MockupLogIn](https://user-images.githubusercontent.com/10214269/55182391-d9edf500-518d-11e9-9f33-f6d8cc0d1053.png =1000x500)
 
-![iPhone-X-Mockup](https://user-images.githubusercontent.com/10214269/55182390-d9edf500-518d-11e9-88e6-9059b57bb5ad.png =1000X500)
+![iPhone-X-Mockup](https://user-images.githubusercontent.com/10214269/55182390-d9edf500-518d-11e9-88e6-9059b57bb5ad.png =1000x500)
 
-![iPhone-X-MockupTeclado](https://user-images.githubusercontent.com/10214269/55182394-da868b80-518d-11e9-9ce2-887e8d8ed5d8.png =1000X500)
+![iPhone-X-MockupTeclado](https://user-images.githubusercontent.com/10214269/55182394-da868b80-518d-11e9-9ce2-887e8d8ed5d8.png =1000x500)
 
