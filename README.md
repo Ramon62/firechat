@@ -321,7 +321,6 @@ Diagrama de Clases de la Aplicación
 Prototipado de la aplicación en dispositivo movil
 --------------------------------------
 
-
 <div style="text-align:center">
 <img src="https://user-images.githubusercontent.com/10214269/55182391-d9edf500-518d-11e9-9f33-f6d8cc0d1053.png" width="120">
 <img src="https://user-images.githubusercontent.com/10214269/55182390-d9edf500-518d-11e9-88e6-9059b57bb5ad.png" width="150">
@@ -335,6 +334,3 @@ Prototipado de la aplicación en dispositivo de escritorio
 <img src="https://user-images.githubusercontent.com/10214269/55184354-318e5f80-5192-11e9-9d8e-ad23155b5622.jpg" width="500">
 <img src="https://user-images.githubusercontent.com/10214269/55184353-30f5c900-5192-11e9-873f-70f9651b3bc6.jpg" width="500">
 </div>
-<img src ="https://github.com/Ramon62/firechat/blob/master/documentos/ImagenTablet.png" width = "500">
-
-
