@@ -15,7 +15,7 @@ GROUP MEMBERS
 | María Victoria Marcos Gómez  | <mv.marcos@alumnos.urjc.es>    | VictoriaMG |
 | Ernesto Baltasar Nve Obono   | <eb.nve@alumnos.urjc.es>       | nveobono   |
 | Rubén Calvo Martínez         | <r.calvoma@alumnos.urjc.es>    | Casanova2  |
-|                              |                                | cddogaru   |
+| Costin Dragos Dogaru         | <cd.dogaru@alumnos.urjc.es>    | cddogaru   |
 
 This project was generated with [Angular
 CLI](https://github.com/angular/angular-cli) version 6.0.8.
