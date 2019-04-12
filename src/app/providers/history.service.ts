@@ -38,7 +38,7 @@ export class HistoryService {
   }
 
   cargarMensaje(){
-     this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc').limit(5));
+     this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc'));
      return this.itemsCollection.valueChanges().pipe(map(mensajes=>{
        console.log(mensajes);
        this.chats=[];

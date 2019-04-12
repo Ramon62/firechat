@@ -10,8 +10,8 @@ export class HistoryComponent implements OnInit {
 
   mensaje:string="";
   elemento: any;
-  constructor( public chatService:HistoryService) {
-    this.chatService.cargarMensaje().subscribe(()=>{
+  constructor( public historyService:HistoryService) {
+    this.historyService.cargarMensaje().subscribe(()=>{
       setTimeout(()=>{
         this.elemento.scrollTop= this.elemento.scrollHeight;
       }, 20);
@@ -22,18 +22,4 @@ export class HistoryComponent implements OnInit {
   ngOnInit() {
     this.elemento=document.getElementById('app-mensajes')
   }
-
-  enviarMensaje(){
-    if (this.mensaje.length===0) {
-      return;
-
-    }
-    this.chatService.agregarMensaje(this.mensaje)
-          .then(()=>this.mensaje="")
-          .catch((err)=>console.error("Error al enviar", err));
-
-
-
-  }
-
 }
