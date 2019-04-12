@@ -8,6 +8,7 @@ import { AngularFireStorageModule } from 'angularfire2/storage';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AppComponent } from './app.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { HistoryComponent } from './components/history/history.component';
 import {FormsModule} from '@angular/forms';
 
 //servicios
@@ -18,7 +19,8 @@ import { LoginComponent } from './components/login/login.component';
   declarations: [
     AppComponent,
     ChatComponent,
-    LoginComponent
+    LoginComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,

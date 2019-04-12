@@ -1,4 +1,4 @@
-<h1>Chat</h1>
+<h1>Historial</h1>
 <h2></h2>
 <hr>
 <div class="app-mensajes" id="app-mensajes">
@@ -7,8 +7,4 @@
     <p>{{chat.mensaje}}</p>
 
   </div>
-<input type="text" class="form-control" (keyup.enter)="enviarMensaje()" name="" [(ngModel)]="mensaje" placeholder="Enviar mensaje" value="">
-<div class="col-md-12 text-right">
-    <button (click)="chatService.logout()" type="button" class="btn btn-outline-danger" name="button">Enviar Mensaje</button>
-</div>
 </div>
