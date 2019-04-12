@@ -1,5 +1,4 @@
-<h1>Historial</h1>
-<hr>
+<h1>Ajustes</h1>
 <div class="app-mensajes" id="app-mensajes">
   <div [ngClass]="{'text-right': historyService.usuario.uid == chat.uid}" *ngFor="let chat of historyService.chats">
     <span class="badge " [ngClass]="{'badge-primary': historyService.usuario.uid == chat.uid, 'badge-success':historyService.usuario.uid != chat.uid }">{{chat.nombre}}</span>

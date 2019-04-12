@@ -5,7 +5,7 @@
   </li>
 </ul>
 -->
-<div class="container main-container">
+<div class="main-container">
   <img width="200" height="50" src="assets/logo.png">
 
   <div class="col-md-12 text-right" *ngIf="chatService.usuario.uid">
@@ -18,9 +18,16 @@
   <div class="chat-window" *ngIf="chatService.usuario.uid">
     <app-chat></app-chat>
   </div>
+  <div class="conectados-window" *ngIf="chatService.usuario.uid">
+    <app-conectados></app-conectados>
+  </div>
 
   <div class="history-window" *ngIf="chatService.usuario.uid">
     <app-history></app-history>
+  </div>
+
+  <div class="ajustes-window" *ngIf="chatService.usuario.uid">
+    <app-ajustes></app-ajustes>
   </div>
 
 </div>

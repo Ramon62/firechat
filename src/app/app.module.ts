@@ -9,6 +9,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AppComponent } from './app.component';
 import { ChatComponent } from './components/chat/chat.component';
 import { HistoryComponent } from './components/history/history.component';
+import { AjustesComponent } from './components/ajustes/ajustes.component';
+import { ConectadosComponent } from './components/conectados/conectados.component';
 import {FormsModule} from '@angular/forms';
 
 //servicios
@@ -20,7 +22,9 @@ import { LoginComponent } from './components/login/login.component';
     AppComponent,
     ChatComponent,
     LoginComponent,
-    HistoryComponent
+    HistoryComponent,
+    AjustesComponent,
+    ConectadosComponent
   ],
   imports: [
     BrowserModule,
