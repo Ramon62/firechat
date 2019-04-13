@@ -8,18 +8,23 @@ import {ChatService} from '../../providers/chat.service';
 })
 export class AjustesComponent implements OnInit {
 
-  mensaje:string="";
-  elemento: any;
   constructor( public chatService:ChatService) {
-    this.chatService.cargarMensaje().subscribe(()=>{
-      setTimeout(()=>{
-        this.elemento.scrollTop= this.elemento.scrollHeight;
-      }, 20);
+          
+  }
 
-    });
-   }
+  cambiarColor(){
+    this.chatService.cambiarColor();
+  }
+
+  cambiarChat(){
+    this.chatService.cambiarChat();
+  }
+
+  cambiarLetra(){
+    this.chatService.cambiarLetra();
+  }
 
   ngOnInit() {
-    this.elemento=document.getElementById('app-mensajes')
+    
   }
 }

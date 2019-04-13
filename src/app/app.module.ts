@@ -11,11 +11,12 @@ import { ChatComponent } from './components/chat/chat.component';
 import { HistoryComponent } from './components/history/history.component';
 import { AjustesComponent } from './components/ajustes/ajustes.component';
 import { ConectadosComponent } from './components/conectados/conectados.component';
+import { LoginComponent } from './components/login/login.component';
+
 import {FormsModule} from '@angular/forms';
 
 //servicios
 import {ChatService} from './providers/chat.service';
-import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [

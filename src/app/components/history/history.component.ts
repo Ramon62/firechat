@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HistoryService} from '../../providers/history.service';
+import {ChatService} from '../../providers/chat.service';
 
 @Component({
   selector: 'app-history',
@@ -10,8 +10,8 @@ export class HistoryComponent implements OnInit {
 
   mensaje:string="";
   elemento: any;
-  constructor( public historyService:HistoryService) {
-    this.historyService.cargarMensaje().subscribe(()=>{
+  constructor( public chatService:ChatService) {
+    this.chatService.cargarMensaje().subscribe(()=>{
       setTimeout(()=>{
         this.elemento.scrollTop= this.elemento.scrollHeight;
       }, 20);

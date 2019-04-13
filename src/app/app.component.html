@@ -5,28 +5,28 @@
   </li>
 </ul>
 -->
-<div class="main-container">
+<div class="main-container" [ngStyle]="{'background-color': chatService.color === true ? '#CCC' : 'white'}">
   <img width="200" height="50" src="assets/logo.png">
 
   <div class="col-md-12 text-right" *ngIf="chatService.usuario.uid">
-    <button (click)="chatService.logout()" type="button" class="btn btn-outline-danger" name="button">Salir</button>
+  <button (click)="chatService.logout()" type="button" class="btn btn-outline-danger" name="button">Salir</button>
 
   </div>
   <app-login *ngIf="!chatService.usuario.uid"></app-login>
 
 
-  <div class="chat-window" *ngIf="chatService.usuario.uid">
+  <div class="chat-window" *ngIf="chatService.usuario.uid" [ngStyle]="{'width': chatService.tamChat === true ? '100%' : '65%'}">
     <app-chat></app-chat>
   </div>
-  <div class="conectados-window" *ngIf="chatService.usuario.uid">
+  <div class="conectados-window" *ngIf="chatService.usuario.uid" [ngStyle]="{'width': chatService.tamChat === true ? '100%' : '34%'}">
     <app-conectados></app-conectados>
   </div>
 
-  <div class="history-window" *ngIf="chatService.usuario.uid">
+  <div class="history-window" *ngIf="chatService.usuario.uid" [ngStyle]="{'width': chatService.tamChat === true ? '100%' : '65%'}">
     <app-history></app-history>
   </div>
 
-  <div class="ajustes-window" *ngIf="chatService.usuario.uid">
+  <div class="ajustes-window" *ngIf="chatService.usuario.uid" [ngStyle]="{'width': chatService.tamChat === true ? '100%' : '34%'}">
     <app-ajustes></app-ajustes>
   </div>
 

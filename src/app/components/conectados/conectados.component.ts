@@ -11,15 +11,9 @@ export class ConectadosComponent implements OnInit {
   mensaje:string="";
   elemento: any;
   constructor( public chatService:ChatService) {
-    this.chatService.cargarMensaje().subscribe(()=>{
-      setTimeout(()=>{
-        this.elemento.scrollTop= this.elemento.scrollHeight;
-      }, 20);
-
-    });
-   }
+  }
 
   ngOnInit() {
-    this.elemento=document.getElementById('app-mensajes')
+    this.elemento=document.getElementById('app-conectados')
   }
 }

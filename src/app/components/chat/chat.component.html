@@ -1,4 +1,4 @@
-<h1>Chat</h1>
+<h1 [ngStyle]="{'font-size': chatService.tamLetra === true ? '76px' : '36px'}">Chat</h1>
 <hr>
 <div class="app-mensajes" id="app-mensajes">
   <div [ngClass]="{'text-right': chatService.usuario.uid == chat.uid}" *ngFor="let chat of chatService.chats">
@@ -8,6 +8,6 @@
   </div>
 <input type="text" class="form-control" (keyup.enter)="enviarMensaje()" name="" [(ngModel)]="mensaje" placeholder="Escribe..." value="">
 <div class="col-md-12 text-right">
-    <button (click)="chatService.logout()" type="button" class="btn btn-outline-success" name="button">Enviar Mensaje</button>
+    <button (click)="chatService.agregarMensaje()" type="button" class="btn btn-outline-success" name="button">Enviar Mensaje</button>
 </div>
 </div>

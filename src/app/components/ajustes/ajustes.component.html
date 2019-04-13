@@ -1,7 +1,9 @@
-<h1>Ajustes</h1>
-<div class="app-mensajes" id="app-mensajes">
-  <div [ngClass]="{'text-right': historyService.usuario.uid == chat.uid}" *ngFor="let chat of historyService.chats">
-    <span class="badge " [ngClass]="{'badge-primary': historyService.usuario.uid == chat.uid, 'badge-success':historyService.usuario.uid != chat.uid }">{{chat.nombre}}</span>
-    <p>{{chat.mensaje}}</p>
+<h1 [ngStyle]="{'font-size': chatService.tamLetra === true ? '76px' : '46px'}">Ajustes</h1>
+<hr>
+<div class="app-ajustes" id="app-ajustes">
+  <div>
+    <button style="display: block;" (click)="cambiarColor()" type="button" class="btn btn-outline-info" name="button">Cambiar color</button>
+    <button style="display: block;" (click)="cambiarChat()" type="button" class="btn btn-outline-info" name="button">Aumentar/Disminuir contenedores</button>
+    <button style="display: block;" (click)="cambiarLetra()" type="button" class="btn btn-outline-info" name="button">Aumentar/Disminuir Tamaño letra</button>
   </div>
 </div>
