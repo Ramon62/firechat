@@ -304,7 +304,7 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 
 - La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugues, Italiano)
 
-3.4 OTROS REQUISITOS<a name="DIAGRAMASECUENCIA"></a>
+3.4 DIAGRAMAS DE SECUENCIA<a name="DIAGRAMASECUENCIA"></a>
 --------------------
 ![Diagrama de secuencia del envio de mensajes](https://github.com/Ramon62/firechat/blob/master/documentos/envioMensaje-DSecuencia.png)
 
