@@ -272,6 +272,7 @@ El código comenzará por las letras:
 | RF-FC-11 | Visualización de mensajes de otros usuarios | Los usuarios podrán visualizar los mensajes de otros usuarios en el chat.|  Alta | No
 | RF-FC-12 | Distinción por color mensajes propios | Los usuarios podrán distinguir los mensajes de otros usuarios en el chat con el color verde.|  Media | Si
 | RF-FC-13 | Cerrar sesión | Los usuarios podrán cerrar la sesión del chat pulsando sobre el boton salir.|  Alta | No
+| RF-FC-14 | Usuarios conectados | Los usuarios podrán poder ver quien está conectado en el chat.|  Media | No
 
 3.3 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
@@ -283,12 +284,16 @@ El código comenzará por las letras:
 | RN-FC-04 | Eficiencia | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
 | RN-FC-05 | Seguridad | Los permsos de acceso al sistema deben de ser cambiados solamente por el administrador|  Alta | No    
 | RN-FC-06 | Seguridad | El sistema debe de desarrollarse aplicando patrones de diseño |  Alta | No
-| RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
+| RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
 | RN-FC-08 | Usabilidad | El tiempo de aprendizaje debe de ser inferiror a 2 hora|  Media | No
 | RN-FC-09 | Usabilidad | La tasa de errores de los usuarios tiene que ser meor al 1%|  Media | Si
 | RN-FC-10 | Usabilidad | La aplicacion debe de poseer un diseño responsive|  Media | Si
 | RN-FC-11 | Dependibilidad | El sistema debe estar disponible el 99.99% del tiempo|  Alta | No
 | RN-FC-12 | Dependibilidad | La interfaz web debe ser implementada para navegadores web con HTML5 y JavaScript|  Media | Si
+| RN-FC-13 | Usabilidad | El sistema mostrará el historial de mensajes del chat.|  Media | No
+| RN-FC-14 | Accesibilidad | El usuario podrá cambiar el color de los mensajes.|  Media | Si
+| RN-FC-15 | Accesibilidad | Se permitirá cambiar el tamaño del texto sin perder funcionalidad ni contenido.|  Media | No
+| RN-FC-16 | Accesibilidad | La aplicación será compatible con el mayor número de dispositivos posibles.|  Media | No
 
 3.4 OTROS REQUISITOS<a name="OTROSREQ"></a>
 --------------------
