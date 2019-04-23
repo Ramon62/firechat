@@ -11,7 +11,7 @@ export class HistoryComponent implements OnInit {
   mensaje:string="";
   elemento: any;
   constructor( public chatService:ChatService) {
-    this.chatService.cargarMensaje().subscribe(()=>{
+    this.chatService.cargarMensaje2().subscribe(()=>{
       setTimeout(()=>{
         this.elemento.scrollTop= this.elemento.scrollHeight;
       }, 20);

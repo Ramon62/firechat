@@ -2,6 +2,6 @@
 <hr>
 <div class="app-conectados" id="app-conectados">
   <div>
-    <span class="badge badge-success">{{chatService.usuario.nombre}}</span>
+    <span [ngStyle]="{'font-size': chatService.tamLetra === true ? '24px' : '14px'}" class="badge badge-success">{{chatService.usuario.nombre}}</span>
   </div>
 </div>

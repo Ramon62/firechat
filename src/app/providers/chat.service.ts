@@ -61,6 +61,18 @@ export class ChatService {
      }))
   }
 
+  cargarMensaje2(){
+     this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc');
+     return this.itemsCollection.valueChanges().pipe(map(mensajes=>{
+       //console.log(mensajes);
+       this.chats=[];
+       for (let mensaje of mensajes) {
+           this.chats.unshift(mensaje);
+       }
+       return this.chats;
+     }))
+  }
+
   cambiarColor(){
     if(this.color == false){
       this.color = true;

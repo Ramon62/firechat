@@ -3,6 +3,6 @@
 <div class="app-mensajes" id="app-mensajes">
   <div [ngClass]="{'text-right': chatService.usuario.uid == chat.uid}" *ngFor="let chat of chatService.chats">
     <span class="badge " [ngClass]="{'badge-primary': chatService.usuario.uid == chat.uid, 'badge-success':chatService.usuario.uid != chat.uid }">{{chat.nombre}}</span>
-    <p>{{chat.mensaje}}</p>
+    <p [ngStyle]="{'font-size': chatService.tamLetra === true ? '24px' : '14px'}">{{chat.mensaje}}</p>
   </div>
 </div>
