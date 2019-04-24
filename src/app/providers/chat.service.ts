@@ -62,7 +62,7 @@ export class ChatService {
   }
 
   cargarMensaje2(){
-     this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc');
+     this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc'));
      return this.itemsCollection.valueChanges().pipe(map(mensajes=>{
        //console.log(mensajes);
        this.chats=[];
