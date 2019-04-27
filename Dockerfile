@@ -1,9 +1,13 @@
-FROM node:latest as node
+FROM node:9.3.0 as node
 
-RUN mkdir /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /app
 
-RUN npm install -g @angular/cli@latest
-COPY . /usr/src/app
+COPY . .
 
-CMD ng serve --host 0.0.0.0 --port 4200
+RUN npm install
+
+RUN npm run build --prod
+
+FROM nginx:alpine
+
+COPY --from=node /app/dist/firechat/ /usr/share/nginx/html
