@@ -95,6 +95,8 @@ TABLA DE CONTENIDOS
 
     -   [3.4 DIAGRAMAS DE SECUENCIA](#DIAGRAMASECUENCIA)
 
+    -   [3.5 CASOS DE USO](#CASOSDEUSO)
+
 -   [4. APENDICE](#APENDICE)
 
 -   [5. PROTOTIPO](#PROTOTIPO)
@@ -307,6 +309,17 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 3.4 DIAGRAMAS DE SECUENCIA<a name="DIAGRAMASECUENCIA"></a>
 --------------------
 ![Diagrama de secuencia del envio de mensajes](https://github.com/Ramon62/firechat/blob/master/documentos/envioMensaje-DSecuencia.png)
+
+3.5 CASOS DE USO<a name="CASOSDEUSO"></a>
+-----------------
+| Codigo   | Autor                     | Descripcion |
+|--------- |-----------------------------|------------|
+| Iniciar Sesión | Cliente | El cliente se conecta a través de Google o Twitter |   
+| Validar Usuario | Sistema | El sistema registra al usuario en el chat |
+| Enviar Mensaje | Cliente | El cliente escribe y envía un mensaje |  
+| Consultar Historial | Cliente | El cliente revisa el historial de los mensajes |
+| Realizar Ajustes | Cliente | El cliente puede modificar ajustes a su necesidad y gusto |
+| Concluir Sesión | Cliente | El cliente cierra la sesión |
 
 4 APÉNDICE<a name="APENDICE"></a>
 ------------------
