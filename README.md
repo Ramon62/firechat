@@ -94,6 +94,10 @@ TABLA DE CONTENIDOS
     -   [3.3 OTROS REQUISITOS](#OTROS)
 
     -   [3.4 DIAGRAMAS DE SECUENCIA](#DIAGRAMASECUENCIA)
+    
+        -   [3.4.1 Diagrama de sencuencia del envio de mensajes](#DIAGRAMASECUENCIAENVIOMENSAJES)
+    
+        -   [3.4.2 Diagrama de secuencia del cambio de tamaño del texto](#DIAGRAMASECUENCIACAMBIOTAMAÑO)
 
     -   [3.5 CASOS DE USO](#CASOSDEUSO)
 
@@ -285,15 +289,15 @@ El código comenzará por las letras:
 | RN-FC-04 | Eficiencia | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
 | RN-FC-05 | Seguridad | Los permsos de acceso al sistema deben de ser cambiados solamente por el administrador|  Alta | No    
 | RN-FC-06 | Seguridad | El sistema debe de desarrollarse aplicando patrones de diseño |  Alta | No
-| RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
+| RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
 | RN-FC-08 | Usabilidad | El tiempo de aprendizaje debe de ser inferiror a 2 hora|  Media | No
 | RN-FC-09 | Usabilidad | La tasa de errores de los usuarios tiene que ser meor al 1%|  Media | Si
 | RN-FC-10 | Usabilidad | La aplicacion debe de poseer un diseño responsive|  Media | Si
 | RN-FC-11 | Dependibilidad | El sistema debe estar disponible el 99.99% del tiempo|  Alta | No
 | RN-FC-12 | Dependibilidad | La interfaz web debe ser implementada para navegadores web con HTML5 y JavaScript|  Media | Si
-| RN-FC-13 | Usabilidad | El sistema mostrará el historial de mensajes del chat.|  Media | No
+| RN-FC-13 | Usabilidad | El sistema mostrará el historial de mensajes del chat.|  Media | No
 | RN-FC-14 | Accesibilidad | El usuario podrá cambiar el color de los mensajes.|  Media | Si
-| RN-FC-15 | Accesibilidad | Se permitirá cambiar el tamaño del texto sin perder funcionalidad ni contenido.|  Media | No
+| RN-FC-15 | Accesibilidad | Se permitirá cambiar el tamaño del texto sin perder funcionalidad ni contenido.|  Media | No
 
 
 
@@ -308,7 +312,21 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 
 3.4 DIAGRAMAS DE SECUENCIA<a name="DIAGRAMASECUENCIA"></a>
 --------------------
+
+
+Los diagramas de secuencia sirven para ver cómo interactúan entre si los diferentes módulos del sistema, a partir de las acciones de los usuarios.
+
+A continuación se muestras los distintos diagramas de secuencia, con una breve explicación de cada uno de ellos:
+
+3.4.1 Diagrama de secuencia del envio de mensajes<a name="DIAGRAMASECUENCIAENVIOMENSAJES"></a>
+----------------------------
+
 ![Diagrama de secuencia del envio de mensajes](https://github.com/Ramon62/firechat/blob/master/documentos/envioMensaje-DSecuencia.png)
+
+3.4.2 Diagrama de secuencia del cambio de tamaño del texto<a name="DIAGRAMASECUENCIACAMBIOTAMAÑO"></a>
+----------------------------
+
+![Diagrama de secuencia del cambio de tamaño del texto](https://github.com/Ramon62/firechat/blob/master/documentos/cambioTamañoTexto-%20DiagramaSecuencia.png)
 
 3.5 CASOS DE USO<a name="CASOSDEUSO"></a>
 -----------------
