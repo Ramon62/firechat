@@ -17,10 +17,6 @@ GROUP MEMBERS
 | Rubén Calvo Martínez         | <r.calvoma@alumnos.urjc.es>    | Casanova2  |
 | Costin Dragos Dogaru         | <cd.dogaru@alumnos.urjc.es>    | cddogaru   |
 
-This project was generated with [Angular
-CLI](https://github.com/angular/angular-cli) version 6.0.8.
-
-
 HOW TO RUN THE CONTAINER OF DOCKER
 ----------------------------------
 Having docker installed on your computer (necessary).
@@ -33,7 +29,7 @@ Having docker installed on your computer (necessary).
 > Note: If you are using Docker Toolbox for other versions of Windows that aren´t Pro/Enterprise, use the Docker Machine IP instead of localhost and keep open the Kitematic. For example, http://192.168.99.100:4000/. To find the IP address, use the command ```docker-machine ip```.
 
 HOW TO RUN WITHOUT DOCKER
-------------------
+-------------------------
 ###### Prerequisites
 Angular requires Node.js version 8.x or 10.x.
 
@@ -47,40 +43,36 @@ In the root folder of the project, run the command: ```npm install -g @angular/c
 Angular includes a server, so that you can easily build and serve your app locally.
 In the root folder of the project, run the command: ```ng serve```
 
-> If you want to indicate the port number, use the following command: ```ng serve --port=XXXX``` where xxxx is the port number
+> If you want to indicate the port number, use the following command: ```ng serve --port=XXXX``` where XXXX is the port number
 
-##### Step 3: Open de browser
+###### Step 3: Open de browser
 Navigate to `http://localhost:4200/` or the specified port. Y voilá!
 
-CODE SCAFFOLDING
-----------------
+ANGULAR COMMANDS WITHOUT DOCKER
+-------------------------------
 
+###### CODE SCAFFOLDING
 Run `ng generate component component-name` to generate a new component. You can
 also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-BUILD
------
-
+###### BUILD
 Run `ng build` to build the project. The build artifacts will be stored in the
 `dist/` directory. Use the `--prod` flag for a production build.
 
-RUNNING UNIT TESTS
-------------------
-
+###### RUNNING UNIT TESTS
 Run `ng test` to execute the unit tests via
 [Karma](https://karma-runner.github.io).
 
-RUNNING END-TO-END TESTS
-------------------------
-
+###### RUNNING END-TO-END TESTS
 Run `ng e2e` to execute the end-to-end tests via
 [Protractor](http://www.protractortest.org/).
 
-FURTHER HERLP
-------------
-
+###### FURTHER HELP
 To get more help on the Angular CLI use `ng help` or go check out the [Angular
 CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+This project was generated with [Angular
+CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 TABLA DE CONTENIDOS
 ===================
