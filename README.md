@@ -20,11 +20,37 @@ GROUP MEMBERS
 This project was generated with [Angular
 CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-DEVELOPMENT SERVER
-------------------
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app
-will automatically reload if you change any of the source files.
+HOW TO RUN THE CONTAINER OF DOCKER
+----------------------------------
+Having docker installed on your computer (necessary).
+
+1. Execute the following command to download and run the container of the app in the port 4000 (recommended):
+```docker run -p 4000:80 rubencalmar/firechat:v4```
+
+2. Open the browser and type the following: ```localhost:4000```
+
+> Note: If you are using Docker Toolbox for other versions of Windows that aren´t Pro/Enterprise, use the Docker Machine IP instead of localhost and keep open the Kitematic. For example, http://192.168.99.100:4000/. To find the IP address, use the command ```docker-machine ip```.
+
+HOW TO RUN WITHOUT DOCKER
+------------------
+###### Prerequisites
+Angular requires Node.js version 8.x or 10.x.
+
+> To check your version, run node -v in a terminal/console window.
+> To get Node.js, go to nodejs.org.
+
+###### Step 1: Install the Angular CLI
+In the root folder of the project, run the command: ```npm install -g @angular/cli```
+
+###### Step 2: Serve de application
+Angular includes a server, so that you can easily build and serve your app locally.
+In the root folder of the project, run the command: ```ng serve```
+
+> If you want to indicate the port number, use the following command: ```ng serve --port=XXXX``` where xxxx is the port number
+
+##### Step 3: Open de browser
+Navigate to `http://localhost:4200/` or the specified port. Y voilá!
 
 CODE SCAFFOLDING
 ----------------
