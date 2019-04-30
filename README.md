@@ -19,10 +19,13 @@ GROUP MEMBERS
 
 HOW TO RUN THE CONTAINER OF DOCKER
 ----------------------------------
-Having docker installed on your computer (necessary).
+Having docker installed on your computer (necessary).For install docker visit: https://www.docker.com/products/docker-desktop .
 
 1. Execute the following command to download and run the container of the app in the port 4000 (recommended):
 ```docker run -p 4000:80 rubencalmar/firechat:v4```
+
+> Note: To execute docker commands, docker must be open (running).
+   
 
 2. Open the browser and type the following: ```localhost:4000```
 
@@ -33,7 +36,7 @@ HOW TO RUN WITHOUT DOCKER
 ###### Prerequisites
 Angular requires Node.js version 8.x or 10.x.
 
-> To check your version, run node -v in a terminal/console window.
+> To check your version, run ```node -v``` in a terminal/console window.
 > To get Node.js, go to nodejs.org.
 
 ###### Step 1: Install the Angular CLI
