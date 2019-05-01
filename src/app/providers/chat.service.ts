@@ -15,6 +15,7 @@ export class ChatService {
   private itemsCollection: AngularFirestoreCollection<Mensaje>;
   private itemsCollectionu: AngularFirestoreCollection<Usuario>;
   public chats:Mensaje[]=[];
+  public chats2:Mensaje[]=[];
   public usuario:any={};
   public usuariosConectados:any={};
   public userId: string;
@@ -52,7 +53,8 @@ export class ChatService {
   cargarMensaje(){
      this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc').limit(10));
      return this.itemsCollection.valueChanges().pipe(map(mensajes=>{
-       //console.log(mensajes);
+       console.log("CARGAR MENSAJE 1");
+       console.log(mensajes);
        this.chats=[];
        for (let mensaje of mensajes) {
            this.chats.unshift(mensaje);
@@ -64,12 +66,13 @@ export class ChatService {
   cargarMensaje2(){
      this.itemsCollection = this.afs.collection<Mensaje>('chats', ref=> ref.orderBy('fecha', 'desc'));
      return this.itemsCollection.valueChanges().pipe(map(mensajes=>{
-       //console.log(mensajes);
-       this.chats=[];
+       console.log("CARGAR MENSAJE 2");
+       console.log(mensajes);
+       this.chats2=[];
        for (let mensaje of mensajes) {
-           this.chats.unshift(mensaje);
+           this.chats2.unshift(mensaje);
        }
-       return this.chats;
+       return this.chats2;
      }))
   }
 
