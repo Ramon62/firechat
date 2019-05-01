@@ -360,6 +360,86 @@ A continuación se muestras los distintos diagramas de secuencia, con una breve 
 | Realizar Ajustes | Cliente | El cliente puede modificar ajustes a su necesidad y gusto |
 | Concluir Sesión | Cliente | El cliente cierra la sesión |
 
+#### ***Caso de uso: Iniciar Sesión*** ####
+(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_IniciarSesion.png)
+
+Descripción: El usuario inicia sesión, la cual posteriormente el sistema valida
+
+Pasos a seguir:
+Flujo Principal:
+    1. El usuario se conecta a firechat
+    2. Selecciona conectarse via Twitter/Google
+    3. El sistema lo valida
+    4. Fin
+Flujo Secundario:
+    5. Error al conectarse
+    6. Se reinicia el proceso para volver a intentarlo
+
+#### ***Caso de uso: Validar Usuario*** ####
+(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ValidarUsuario.png)
+
+Descripción: El sistema registra al usuario en el chat
+
+Pasos a seguir:
+Flujo Principal:
+    1. El sistema reconoce al usuario conectado
+    2. Lo conecta al servidor
+    3. Fin
+Flujo Secundario:
+    4. El sistema no reconoce al usuario
+
+#### ***Caso de uso: Enviar Mensaje*** ####
+(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_EnviarMensaje.png)
+
+Descripción: El usuario escribe y envía un mensaje
+
+Pasos a seguir:
+Flujo Principal:
+    1. El usuario escribe un mensaje
+    2. Lo envía
+    3. Fin
+Flujo Secundario:
+    4. Error, el mensaje no llega
+
+#### ***Caso de uso: Consultar Historial*** ####
+(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConsultarHistorial.png)
+
+Descripción: El usuario consulta el historial
+
+Pasos a seguir:
+Flujo Principal:
+    1. El usuario observa el historial
+    2. Lo consulta
+    3. Fin
+Flujo Secundario:
+    4. Error al cargar el historial
+
+#### ***Caso de uso: Realizar Ajustes*** ####
+(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_RealizarAjustes.png)
+
+Descripción: El usuario puede  realizar cambios en la interfaz
+
+Pasos a seguir:
+Flujo Principal:
+    1. El usuario cambia color
+    2. El usuario aumenta y disminuye los contenedores de tamaño
+    3. El usuario aumenta y disminuye el tamaño de la letra
+    4. Fin
+Flujo Secundario:
+    5. Error al cargar
+
+#### ***Caso de uso: Concluir Sesión*** ####
+(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConcluirSesión.png)
+
+Descripción: El usuario finaliza la sesión
+
+Pasos a seguir:
+Flujo Principal:
+    1. El usuario aprieta el botón de Salir
+    2. Se concluye la sesión
+    3. Fin
+
+
 4 APÉNDICE<a name="APENDICE"></a>
 ------------------
 Diagrama de Secuencia de la Aplicación
