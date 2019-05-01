@@ -22,7 +22,7 @@ HOW TO RUN THE CONTAINER OF DOCKER
 Having docker installed on your computer (necessary). For install docker visit: https://www.docker.com/products/docker-desktop .
 
 1. Execute the following command to download and run the container of the app in the port 4000 (recommended):
-```docker run -p 4000:80 rubencalmar/firechat:v4```
+```docker run -p 4000:80 rubencalmar/firechat:v6```
 
 > Note: To execute docker commands, docker must be open (running).
    
