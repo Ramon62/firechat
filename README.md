@@ -19,7 +19,7 @@ GROUP MEMBERS
 
 HOW TO RUN THE CONTAINER OF DOCKER
 ----------------------------------
-Having docker installed on your computer (necessary).For install docker visit: https://www.docker.com/products/docker-desktop .
+Having docker installed on your computer (necessary). For install docker visit: https://www.docker.com/products/docker-desktop .
 
 1. Execute the following command to download and run the container of the app in the port 4000 (recommended):
 ```docker run -p 4000:80 rubencalmar/firechat:v4```
@@ -27,7 +27,7 @@ Having docker installed on your computer (necessary).For install docker visit: h
 > Note: To execute docker commands, docker must be open (running).
    
 
-2. Open the browser and type the following: ```localhost:4000```
+2. Open the browser and type the following: ```localhost:4000``` Y voilá!
 
 > Note: If you are using Docker Toolbox for other versions of Windows that aren´t Pro/Enterprise, use the Docker Machine IP instead of localhost and keep open the Kitematic. For example, http://192.168.99.100:4000/. To find the IP address, use the command ```docker-machine ip```.
 
