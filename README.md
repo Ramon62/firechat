@@ -361,22 +361,22 @@ A continuación se muestras los distintos diagramas de secuencia, con una breve 
 | Concluir Sesión | Cliente | El cliente cierra la sesión |
 
 #### ***Caso de uso: Iniciar Sesión*** ####
-(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_IniciarSesion.png)
+![Caso de uso Iniciar Sesion](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_IniciarSesion.png)
 
 Descripción: El usuario inicia sesión, la cual posteriormente el sistema valida
 
 Pasos a seguir:
-Flujo Principal:
+  * Flujo Principal:
     1. El usuario se conecta a firechat
     2. Selecciona conectarse via Twitter/Google
     3. El sistema lo valida
     4. Fin
-Flujo Secundario:
+ * Flujo Secundario:
     5. Error al conectarse
     6. Se reinicia el proceso para volver a intentarlo
 
 #### ***Caso de uso: Validar Usuario*** ####
-(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ValidarUsuario.png)
+![Caso de uso Validar Usuario](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ValidarUsuario.png)
 
 Descripción: El sistema registra al usuario en el chat
 
@@ -389,7 +389,7 @@ Flujo Secundario:
     4. El sistema no reconoce al usuario
 
 #### ***Caso de uso: Enviar Mensaje*** ####
-(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_EnviarMensaje.png)
+![Caso de uso Enviar Mensaje](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_EnviarMensaje.png)
 
 Descripción: El usuario escribe y envía un mensaje
 
@@ -402,7 +402,7 @@ Flujo Secundario:
     4. Error, el mensaje no llega
 
 #### ***Caso de uso: Consultar Historial*** ####
-(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConsultarHistorial.png)
+![Caso de uso Consultar Historial](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConsultarHistorial.png)
 
 Descripción: El usuario consulta el historial
 
@@ -415,7 +415,7 @@ Flujo Secundario:
     4. Error al cargar el historial
 
 #### ***Caso de uso: Realizar Ajustes*** ####
-(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_RealizarAjustes.png)
+![Caso de uso Realizar Ajustes](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_RealizarAjustes.png)
 
 Descripción: El usuario puede  realizar cambios en la interfaz
 
@@ -429,7 +429,7 @@ Flujo Secundario:
     5. Error al cargar
 
 #### ***Caso de uso: Concluir Sesión*** ####
-(https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConcluirSesión.png)
+![Caso de uso Concluir Sesion](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConcluirSesión.png)
 
 Descripción: El usuario finaliza la sesión
 
