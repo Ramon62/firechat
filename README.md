@@ -104,7 +104,7 @@ TABLA DE CONTENIDOS
     -   [2.5 REQUERIMIENTOS FUTUROS](#REQFUTUROS)
 
 
--   [3. Diseño](#REQESPECIFICOS)
+-   [3. REQUISITOS ESPECÍFICOS](#REQESPECIFICOS)
 
     -   [3.1 REQUISITOS FUNCIONALES](#REQFUNCIONALES)
 
@@ -116,9 +116,9 @@ TABLA DE CONTENIDOS
 
     -   [3.5 DIAGRAMAS DE SECUENCIA](#DIAGRAMASECUENCIA)
     
-        -   [3.5.1 Diagrama de secuencia del envío de mensajes](#DIAGRAMASECUENCIAENVIOMENSAJES)
+        -   [3.5.1 DIAGRAMA DE SECUENCIA DEL ENVÍO DE MENSAJES](#DIAGRAMASECUENCIAENVIOMENSAJES)
     
-        -   [3.5.2 Diagrama de secuencia del cambio de tamaño del texto](#DIAGRAMASECUENCIACAMBIOTAMAÑO)
+        -   [3.5.2 DIAGRAMA DE SECUENCIA DEL CAMBIO DE TAMAÑO DEL TEXTO](#DIAGRAMASECUENCIACAMBIOTAMAÑO)
 
     -   [3.6 DIAGRAMAS DE SECUENCIA DE LA APLICACIÓN](#DIAGRAMASECAPP)
 
@@ -126,8 +126,9 @@ TABLA DE CONTENIDOS
 
     -   [3.8 DIAGRAMAS DE CLASES](#DIAGRAMACLASES)
 
+-   [4. METODOLOGÍA](#METODOLOGIA)
 
--   [4. PROTOTIPO](#PROTOTIPO)
+-   [5. PROTOTIPO](#PROTOTIPO)
 
 
 
@@ -320,10 +321,6 @@ El código comenzará por las letras:
 
 3.3 OTROS REQUISITOS<a name="OTROSREQ"></a>
 --------------------
-- La metodología de desarrollo de software a usar debe de ser la metodología SCRUM
-siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famoso Given, When, Then
-
-- Flujos de trabajo basados en Sprint de 2 o 3 semanas
 
 - La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugués, Italiano)
 
@@ -455,11 +452,15 @@ A continuación se muestran los distintos diagramas de secuencia, con una breve 
 --------------------
 ![Diagrama de la App](https://github.com/Ramon62/firechat/blob/master/documentos/DiagramaApp.png)
 
+4 METODOLOGÍA<a name="METODOLOGIA"></a>
+=============
+- La metodología de desarrollo de software que hemos usado es SCRUM.
+    - Con flujos de trabajo basados en Sprints de 2 o 3 semanas.
+    - Reuniones diarias, semanales y de retrospectiva por cierre de Sprint.
 
-4 PROTOTIPO<a name="PROTOTIPO"></a>
-------------------
+5 PROTOTIPO<a name="PROTOTIPO"></a>
+===========
 
-------------------
 Prototipado de la aplicación en dispositivo de escritorio
 --------------------------------------
 <div>
@@ -473,10 +474,6 @@ Prototipado de la aplicación en dispositivo móvil
 <div style="text-align:center">
 <img src="https://github.com/Ramon62/firechat/blob/master/documentos/Firechat-%20Mockup.png">
 </div>
-
-
-
-
 
 > Mockup credits : Macbook pro: `http://www.freepik.com">Designed by zlatko_plamenov / Freepik` . iPhone x: `http://www.pixeden.com`
 
