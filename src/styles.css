@@ -17,7 +17,7 @@
 
 .chat-window{
   padding: 10px;
-  width: 65%;
+  width: 64%;
   height: 400px;
   overflow: hidden;
   border: 1px solid #4080FF;
@@ -27,7 +27,7 @@
 }
 .conectados-window{
   padding: 10px;
-  width: 34%;
+  width: 33%;
   height: 400px;
   overflow: hidden;
   border: 1px solid #4080FF;
@@ -37,7 +37,7 @@
 .history-window{
   margin-right: 10px;
   padding: 10px;
-  width: 65%;
+  width: 64%;
   height: 400px;
   overflow: hidden;
   border: 1px solid #4080FF;
@@ -46,7 +46,7 @@
 }
 .ajustes-window{
   padding: 10px;
-  width: 34%;
+  width: 33%;
   height: 400px;
   overflow: hidden;
   border: 1px solid #4080FF;

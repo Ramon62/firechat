@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-
+import { Component, Renderer2 } from '@angular/core';
 import {ChatService} from './providers/chat.service';
 
 @Component({
@@ -9,7 +8,7 @@ import {ChatService} from './providers/chat.service';
 })
 export class AppComponent {
 
-  constructor(public chatService:ChatService) {
-    
+  constructor(public chatService:ChatService, private renderer:Renderer2) {
+  	this.renderer.addClass(document.body, 'body-class'); 
   }
 }
