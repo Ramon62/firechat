@@ -27,7 +27,7 @@ Having docker installed on your computer (necessary). For install docker visit: 
 > Note: To execute docker commands, docker must be open (running).
    
 
-2. Open the browser and type the following: ```localhost:4000``` Y voilá!
+2. Open the browser and type the following: ```localhost:4000``` Y voilà!
 
 > Note: If you are using Docker Toolbox for other versions of Windows that aren´t Pro/Enterprise, use the Docker Machine IP instead of localhost and keep open the Kitematic. For example, http://192.168.99.100:4000/. To find the IP address, use the command ```docker-machine ip```.
 
@@ -49,7 +49,7 @@ In the root folder of the project, run the command: ```ng serve```
 > If you want to indicate the port number, use the following command: ```ng serve --port=XXXX``` where XXXX is the port number
 
 ###### Step 3: Open de browser
-Navigate to `http://localhost:4200/` or the specified port. Y voilá!
+Navigate to `http://localhost:4200/` or the specified port. Y voilà!
 
 ANGULAR COMMANDS WITHOUT DOCKER
 -------------------------------
@@ -88,9 +88,8 @@ TABLA DE CONTENIDOS
 
     -   [1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES](#DEFINICIONES)
 
-    -   [1.4 REFERENCIAS](#REFERENCIAS)
+    -   [1.4 VISIÓN GENERAL DEL DOCUMENTO](#VISION)
 
-    -   [1.5 VISIÓN GENERAL DEL DOCUMENTO](#VISION)
 
 -   [2. DESCRICIÓN GENERAL](#DESGENERAL)
 
@@ -98,13 +97,12 @@ TABLA DE CONTENIDOS
 
     -   [2.2 FUNCIONES DEL PRODUCTO](#FUNCIONES)
 
-    -   [2.3 CARACTERÍSTICAS DE LOS USUARIO](#CARACTERISTICAS)
+    -   [2.3 RESTRICCIONES](#RESTRICCIONES)
 
-    -   [2.4 RESTRICCIONES](#RESTRICCIONES)
+    -   [2.4 SUPOSICIONES Y DEPENDENCIAS](#SUPOSICIONES)
 
-    -   [2.5 SUPOSICIONES Y DEPENDENCIAS](#SUPOSICIONES)
+    -   [2.5 REQUERIMIENTOS FUTUROS](#REQFUTUROS)
 
-    -   [2.6 REQUERIMIENTOS FUTUROS](#REQFUTUROS)
 
 -   [3. Diseño](#REQESPECIFICOS)
 
@@ -114,17 +112,25 @@ TABLA DE CONTENIDOS
 
     -   [3.3 OTROS REQUISITOS](#OTROS)
 
-    -   [3.4 DIAGRAMAS DE SECUENCIA](#DIAGRAMASECUENCIA)
+    -   [3.4 DIAGRAMAS DE CASOS DE USO](#CASOSDEUSO)
+
+    -   [3.5 DIAGRAMAS DE SECUENCIA](#DIAGRAMASECUENCIA)
     
-        -   [3.4.1 Diagrama de sencuencia del envio de mensajes](#DIAGRAMASECUENCIAENVIOMENSAJES)
+        -   [3.4.1 Diagrama de secuencia del envío de mensajes](#DIAGRAMASECUENCIAENVIOMENSAJES)
     
         -   [3.4.2 Diagrama de secuencia del cambio de tamaño del texto](#DIAGRAMASECUENCIACAMBIOTAMAÑO)
 
-    -   [3.5 CASOS DE USO](#CASOSDEUSO)
+    -   [3.6 DIAGRAMAS DE SECUENCIA DE LA APLICACIÓN](#DIAGRAMASECAPP)
 
--   [4. APENDICE](#APENDICE)
+    -   [3.7 DIAGRAMAS DE DESPLIEGUE](#DIAGRAMADESPLIEGUE)
 
--   [5. PROTOTIPO](#PROTOTIPO)
+    -   [3.8 DIAGRAMAS DE CLASES](#DIAGRAMACLASES)
+
+
+-   [4. PROTOTIPO](#PROTOTIPO)
+
+
+
 
 1 INTRODUCCIÓN<a name="INTRODUCCION"></a>
 ===============
@@ -160,7 +166,7 @@ Ahí es donde Firebase de Google (firebase.google.com), nos proporciona un backe
     de la propia empresa.
 
 -   El objetivo puede ser cualquiera que se desee, pero principalmente se suele
-    usar para optimizer los procesos en tiempo y recursos de una organización.
+    usar para optimizar los procesos en tiempo y recursos de una organización.
 
 1.3 DEFINICIONES, ACRÓNIMOS Y ABREVIACIONES<a name="DEFINICIONES"></a>
 -------------------------------------------
@@ -171,26 +177,23 @@ BD – Bases de datos.
 
 UML – Lenguaje de modelado unificado.
 
-1.4 REFERENCIAS<a name="REFERENCIAS"></a>
----------------
 
-<!-- TODO: Añadir referencias -->
-
-1.5 VISIÓN GENERAL DEL DOCUMENTO<a name="VISION"></a>
+1.4 VISIÓN GENERAL DEL DOCUMENTO<a name="VISION"></a>
 --------------------------------
 
-El document está dividido en 4 secciones:
+El documento está dividido en 5 secciones:
 
 -   La sección 1 se enfoca en la introducción, objetivos y descripción del
-    document.
+    proyecto.
 
 -   La sección 2 está orientada a la descripción general del Sistema, donde la
     información está orientada al potencial usuario.
 
--   La sección 3 trata sobre los requisites del específicos, donde empleamos
-    terminología técnica destinada a desarrolladores y programadores.
+-   La sección 3 trata sobre el diseño, incluyendo los requisitos específicos (donde empleamos
+    terminología técnica destinada a desarrolladores y programadores) y los principales diagramas UML de la aplicación (diagramas de secuencia y de casos de uso).
 
--   La sección 4 son los apéndices.
+-   La sección 4 contiene los prototipos de la aplicación.
+
 
 2 DESCRIPCIÓN GENERAL<a name="DESGENERAL"></a>
 ======================
@@ -208,7 +211,6 @@ organización, pudiendo compartir texto plano. Estos usuarios pueden iniciar
 sesión con cuentas de Google o Twitter, facilitando así el inicio de sesión sin
 tener que registrarse previamente.
 
-Hacer diagram de bloques y ponerlo en el apéndice.
 
 2.2 FUNCIONES DEL PRODUCTO<a name="FUNCIONES"></a>
 --------------------------
@@ -227,12 +229,7 @@ Hacer diagram de bloques y ponerlo en el apéndice.
 
 -   Cierre de sesión.
 
-2.3 CARACTERÍSTICAS DE LOS USUARIOS<a name="CARACTERISTICAS"></a>
------------------------------------
-
-Por hacer
-
-2.4 RESTRICCIONES<a name="RESTRICCIONES"></a>
+2.3 RESTRICCIONES<a name="RESTRICCIONES"></a>
 -----------------
 
 Se debe hacer uso de protocolos de intercambio de datos vía internet de manera
@@ -244,20 +241,19 @@ al sistema a usuarios no autorizados.
 Por otro lado, la implementación de un temporizador de sesión para aumentar la
 seguridad del mismo.
 
-Añadir más
 
-2.5 SUPOSICIONES Y DEPENDENCIAS<a name="SUPOSICIONES"></a>
+2.4 SUPOSICIONES Y DEPENDENCIAS<a name="SUPOSICIONES"></a>
 -------------------------------
 
 Lo único necesario y requerido para un correcto funcionamiento del sistema es la
 instalación de un navegador moderno y actualizado.
 
-2.6 REQUERIMIENTOS FUTUROS<a name="REQFUTUROS"></a>
+> NOTA : Para una correcta ejecución se recomienda no usar Safari o Internet Explorer ya que la visualización de los contenedores de la aplicación puede resultar alterada.
+
+2.5 REQUERIMIENTOS FUTUROS<a name="REQFUTUROS"></a>
 --------------------------
 
-En versions futuras se debe implementar la siguiente serie de puntos:
-
--   Historial de conversaciones.
+En versiones futuras se debe implementar la siguiente serie de puntos:
 
 -   Inicio de sesión con más cuentas de otras corporaciones.
 
@@ -283,7 +279,7 @@ El código comenzará por las letras:
 
 3.1 REQUISITOS FUNCIONALES<a name="REQFUNCIONALES"></a>
 --------------------------
-| Codigo   | Titulo                      | Descripcion| Prioridad  | Modificable  |
+| Código   | Titulo                      | Descripción| Prioridad  | Modificable  |
 |--------- |-----------------------------|------------|------------|--------------|
 | RF-FC-01 | Controlar acceso al sistema | Se protegerá el acceso al sistema haciendo que los usuarios se tengan que registrar o logar previamente|  Alta | No          
 | RF-FC-02 | Acceso con cuenta de Google | Se permitirá el acceso al sistema utilizando una cuenta de Google|  Alta | No   
@@ -302,18 +298,18 @@ El código comenzará por las letras:
 
 3.2 REQUISITOS NO FUNCIONALES<a name="REQNOFUNCIONALES"></a>
 -----------------------------
-| Codigo   | Titulo                      | Descripcion| Prioridad  | Modificable  |
+| Código   | Titulo                      | Descripción| Prioridad  | Modificable  |
 |--------- |-----------------------------|------------|------------|--------------|
 | RN-FC-01 | Eficiencia | El sistema debe de ser capaz de procesar 2 transacciones|  Alta | Si          
 | RN-FC-02 | Eficiencia | Toda trasaccion debe de responder en menos de 5 segundos|  Alta | No   
 | RN-FC-03 | Eficiencia | El sistema debe de ser capaz de operar con 3 usuarios máximo|  Alta | No     
 | RN-FC-04 | Eficiencia | Se permitirá la comunicación entre 2 usuarios|  Alta | No    
-| RN-FC-05 | Seguridad | Los permsos de acceso al sistema deben de ser cambiados solamente por el administrador|  Alta | No    
+| RN-FC-05 | Seguridad | Los permisos de acceso al sistema deben de ser cambiados solamente por el administrador|  Alta | No    
 | RN-FC-06 | Seguridad | El sistema debe de desarrollarse aplicando patrones de diseño |  Alta | No
 | RN-FC-07 | Seguridad | El sistema proveerá mecanismos para que el usuario acceda al sistema después de la primera vez automáticamente sin necesidad de logarse de nuevo. |  Media | No
-| RN-FC-08 | Usabilidad | El tiempo de aprendizaje debe de ser inferiror a 2 hora|  Media | No
-| RN-FC-09 | Usabilidad | La tasa de errores de los usuarios tiene que ser meor al 1%|  Media | Si
-| RN-FC-10 | Usabilidad | La aplicacion debe de poseer un diseño responsive|  Media | Si
+| RN-FC-08 | Usabilidad | El tiempo de aprendizaje debe de ser inferior a 2 hora|  Media | No
+| RN-FC-09 | Usabilidad | La tasa de errores de los usuarios tiene que ser menor al 1%|  Media | Si
+| RN-FC-10 | Usabilidad | La aplicación debe de poseer un diseño responsive|  Media | Si
 | RN-FC-11 | Dependibilidad | El sistema debe estar disponible el 99.99% del tiempo|  Alta | No
 | RN-FC-12 | Dependibilidad | La interfaz web debe ser implementada para navegadores web con HTML5 y JavaScript|  Media | Si
 | RN-FC-13 | Usabilidad | El sistema mostrará el historial de mensajes del chat.|  Media | No
@@ -329,29 +325,11 @@ siguiendo el Behaviour Driven Development (BDD) apoyada en Cucumber, con el famo
 
 - Flujos de trabajo basados en Sprint de 2 o 3 semanas
 
-- La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugues, Italiano)
+- La aplicación debe de soportar el alfabeto latino (Español, Francés, Portugués, Italiano)
 
-3.4 DIAGRAMAS DE SECUENCIA<a name="DIAGRAMASECUENCIA"></a>
---------------------
-
-
-Los diagramas de secuencia sirven para ver cómo interactúan entre si los diferentes módulos del sistema, a partir de las acciones de los usuarios.
-
-A continuación se muestras los distintos diagramas de secuencia, con una breve explicación de cada uno de ellos:
-
-3.4.1 Diagrama de secuencia del envio de mensajes<a name="DIAGRAMASECUENCIAENVIOMENSAJES"></a>
-----------------------------
-
-![Diagrama de secuencia del envio de mensajes](https://github.com/Ramon62/firechat/blob/master/documentos/envioMensaje-DSecuencia.png)
-
-3.4.2 Diagrama de secuencia del cambio de tamaño del texto<a name="DIAGRAMASECUENCIACAMBIOTAMAÑO"></a>
-----------------------------
-
-![Diagrama de secuencia del cambio de tamaño del texto](https://github.com/Ramon62/firechat/blob/master/documentos/cambioTamañoTexto-%20DiagramaSecuencia.png)
-
-3.5 CASOS DE USO<a name="CASOSDEUSO"></a>
+3.4 DIAGRAMAS DE CASOS DE USO<a name="CASOSDEUSO"></a>
 -----------------
-| Codigo   | Autor                     | Descripcion |
+| Código   | Autor                     | Descripción |
 |--------- |-----------------------------|------------|
 | Iniciar Sesión | Cliente | El cliente se conecta a través de Google o Twitter |   
 | Validar Usuario | Sistema | El sistema registra al usuario en el chat |
@@ -368,7 +346,7 @@ Descripción: El usuario inicia sesión, la cual posteriormente el sistema valid
 Pasos a seguir:
   * Flujo Principal:
     1. El usuario se conecta a firechat
-    2. Selecciona conectarse via Twitter/Google
+    2. Selecciona conectarse vía Twitter/Google
     3. El sistema lo valida
     4. Fin
 
@@ -445,38 +423,60 @@ Pasos a seguir:
     3. Fin
 
 
-4 APÉNDICE<a name="APENDICE"></a>
-------------------
-Diagrama de Secuencia de la Aplicación
---------------------------------------
+3.5 DIAGRAMAS DE SECUENCIA<a name="DIAGRAMASECUENCIA"></a>
+--------------------
+
+
+Los diagramas de secuencia sirven para ver cómo interactúan entre si los diferentes módulos del sistema, a partir de las acciones de los usuarios.
+
+A continuación se muestras los distintos diagramas de secuencia, con una breve explicación de cada uno de ellos:
+
+3.4.1 Diagrama de secuencia del envío de mensajes<a name="DIAGRAMASECUENCIAENVIOMENSAJES"></a>
+----------------------------
+
+![Diagrama de secuencia del envío de mensajes](https://github.com/Ramon62/firechat/blob/master/documentos/envioMensaje-DSecuencia.png)
+
+3.4.2 Diagrama de secuencia del cambio de tamaño del texto<a name="DIAGRAMASECUENCIACAMBIOTAMAÑO"></a>
+----------------------------
+
+![Diagrama de secuencia del cambio de tamaño del texto](https://github.com/Ramon62/firechat/blob/master/documentos/cambioTamañoTexto-%20DiagramaSecuencia.png)
+
+3.6 DIAGRAMAS DE SECUENCIA DE LA APLICACIÓN <a name="DIAGRAMASECAPP"></a>
+--------------------
 
 ![diagramaSecuencia](https://user-images.githubusercontent.com/32453276/54840295-f5a85580-4ccc-11e9-98a7-5d05af00b39f.jpeg)
 
-Diagrama de Despliegue de la Aplicación
----------------------------------------
+3.7 DIAGRAMAS DE DESPLIEGUE <a name="DIAGRAMADESPLIEGUE"></a>
+--------------------
 
 ![diagramaDespliegue](https://user-images.githubusercontent.com/32453276/54842974-9bf75980-4cd3-11e9-9acb-726a5928600a.jpeg)
 
-Diagrama de Clases de la Aplicación
-------------------------------------
+3.8 DIAGRAMAS DE CLASES <a name="DIAGRAMACLASES"></a>
+--------------------
 ![Diagrama de la App](https://github.com/Ramon62/firechat/blob/master/documentos/DiagramaApp.png)
 
 
-5 PROTOTIPO<a name="PROTOTIPO"></a>
+4 PROTOTIPO<a name="PROTOTIPO"></a>
 ------------------
-Prototipado de la aplicación en dispositivo movil
---------------------------------------
-
-<div style="text-align:center">
-<img src="https://user-images.githubusercontent.com/10214269/55182391-d9edf500-518d-11e9-9f33-f6d8cc0d1053.png" width="120">
-<img src="https://user-images.githubusercontent.com/10214269/55182390-d9edf500-518d-11e9-88e6-9059b57bb5ad.png" width="150">
-<img src="https://user-images.githubusercontent.com/10214269/55182394-da868b80-518d-11e9-9ce2-887e8d8ed5d8.png" width="120">
-</div>
 
 ------------------
 Prototipado de la aplicación en dispositivo de escritorio
 --------------------------------------
 <div>
-<img src="https://user-images.githubusercontent.com/10214269/55184354-318e5f80-5192-11e9-9d8e-ad23155b5622.jpg" width="500">
-<img src="https://user-images.githubusercontent.com/10214269/55184353-30f5c900-5192-11e9-873f-70f9651b3bc6.jpg" width="500">
+<img src="https://github.com/Ramon62/firechat/blob/master/documentos/Firechat%20Macbook.png">
 </div>
+
+
+Prototipado de la aplicación en dispositivo móvil
+--------------------------------------
+
+<div style="text-align:center">
+<img src="https://github.com/Ramon62/firechat/blob/master/documentos/Firechat-%20Mockup.png">
+</div>
+
+
+
+
+
+> Mockup credits : Macbook pro: `http://www.freepik.com">Designed by zlatko_plamenov / Freepik` . iPhone x: `http://www.pixeden.com`
+
