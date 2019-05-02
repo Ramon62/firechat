@@ -181,7 +181,7 @@ UML – Lenguaje de modelado unificado.
 1.4 VISIÓN GENERAL DEL DOCUMENTO<a name="VISION"></a>
 --------------------------------
 
-El documento está dividido en 5 secciones:
+El documento está dividido en 4 secciones:
 
 -   La sección 1 se enfoca en la introducción, objetivos y descripción del
     proyecto.
