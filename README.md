@@ -371,9 +371,10 @@ Pasos a seguir:
     2. Selecciona conectarse via Twitter/Google
     3. El sistema lo valida
     4. Fin
+
  * Flujo Secundario:
-    5. Error al conectarse
-    6. Se reinicia el proceso para volver a intentarlo
+    1. Error al conectarse
+    2. Se reinicia el proceso para volver a intentarlo
 
 #### ***Caso de uso: Validar Usuario*** ####
 ![Caso de uso Validar Usuario](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ValidarUsuario.png)
@@ -385,8 +386,9 @@ Pasos a seguir:
     1. El sistema reconoce al usuario conectado
     2. Lo conecta al servidor
     3. Fin
+
   * Flujo Secundario:
-    4. El sistema no reconoce al usuario
+    1. El sistema no reconoce al usuario
 
 #### ***Caso de uso: Enviar Mensaje*** ####
 ![Caso de uso Enviar Mensaje](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_EnviarMensaje.png)
@@ -398,8 +400,9 @@ Pasos a seguir:
     1. El usuario escribe un mensaje
     2. Lo envía
     3. Fin
+
   * Flujo Secundario:
-    4. Error, el mensaje no llega
+    1. Error, el mensaje no llega
 
 #### ***Caso de uso: Consultar Historial*** ####
 ![Caso de uso Consultar Historial](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConsultarHistorial.png)
@@ -411,8 +414,9 @@ Pasos a seguir:
     1. El usuario observa el historial
     2. Lo consulta
     3. Fin
+
   * Flujo Secundario:
-    4. Error al cargar el historial
+    1. Error al cargar el historial
 
 #### ***Caso de uso: Realizar Ajustes*** ####
 ![Caso de uso Realizar Ajustes](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_RealizarAjustes.png)
@@ -425,8 +429,9 @@ Pasos a seguir:
     2. El usuario aumenta y disminuye los contenedores de tamaño
     3. El usuario aumenta y disminuye el tamaño de la letra
     4. Fin
+
   * Flujo Secundario:
-    5. Error al cargar
+    1. Error al cargar
 
 #### ***Caso de uso: Concluir Sesión*** ####
 ![Caso de uso Concluir Sesion](https://github.com/Ramon62/firechat/blob/master/documentos/CasoDeUso_ConcluirSesión.png)
