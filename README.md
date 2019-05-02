@@ -381,11 +381,11 @@ Pasos a seguir:
 Descripción: El sistema registra al usuario en el chat
 
 Pasos a seguir:
-Flujo Principal:
+  * Flujo Principal:
     1. El sistema reconoce al usuario conectado
     2. Lo conecta al servidor
     3. Fin
-Flujo Secundario:
+  * Flujo Secundario:
     4. El sistema no reconoce al usuario
 
 #### ***Caso de uso: Enviar Mensaje*** ####
@@ -394,11 +394,11 @@ Flujo Secundario:
 Descripción: El usuario escribe y envía un mensaje
 
 Pasos a seguir:
-Flujo Principal:
+  * Flujo Principal:
     1. El usuario escribe un mensaje
     2. Lo envía
     3. Fin
-Flujo Secundario:
+  * Flujo Secundario:
     4. Error, el mensaje no llega
 
 #### ***Caso de uso: Consultar Historial*** ####
@@ -407,11 +407,11 @@ Flujo Secundario:
 Descripción: El usuario consulta el historial
 
 Pasos a seguir:
-Flujo Principal:
+  * Flujo Principal:
     1. El usuario observa el historial
     2. Lo consulta
     3. Fin
-Flujo Secundario:
+  * Flujo Secundario:
     4. Error al cargar el historial
 
 #### ***Caso de uso: Realizar Ajustes*** ####
@@ -420,12 +420,12 @@ Flujo Secundario:
 Descripción: El usuario puede  realizar cambios en la interfaz
 
 Pasos a seguir:
-Flujo Principal:
+  * Flujo Principal:
     1. El usuario cambia color
     2. El usuario aumenta y disminuye los contenedores de tamaño
     3. El usuario aumenta y disminuye el tamaño de la letra
     4. Fin
-Flujo Secundario:
+  * Flujo Secundario:
     5. Error al cargar
 
 #### ***Caso de uso: Concluir Sesión*** ####
@@ -434,7 +434,7 @@ Flujo Secundario:
 Descripción: El usuario finaliza la sesión
 
 Pasos a seguir:
-Flujo Principal:
+  * Flujo Principal:
     1. El usuario aprieta el botón de Salir
     2. Se concluye la sesión
     3. Fin
