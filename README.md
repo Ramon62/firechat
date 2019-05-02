@@ -429,7 +429,7 @@ Pasos a seguir:
 
 Los diagramas de secuencia sirven para ver cómo interactúan entre si los diferentes módulos del sistema, a partir de las acciones de los usuarios.
 
-A continuación se muestras los distintos diagramas de secuencia, con una breve explicación de cada uno de ellos:
+A continuación se muestran los distintos diagramas de secuencia, con una breve explicación de cada uno de ellos:
 
 3.4.1 Diagrama de secuencia del envío de mensajes<a name="DIAGRAMASECUENCIAENVIOMENSAJES"></a>
 ----------------------------
