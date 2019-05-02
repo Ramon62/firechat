@@ -116,9 +116,9 @@ TABLA DE CONTENIDOS
 
     -   [3.5 DIAGRAMAS DE SECUENCIA](#DIAGRAMASECUENCIA)
     
-        -   [3.4.1 Diagrama de secuencia del envío de mensajes](#DIAGRAMASECUENCIAENVIOMENSAJES)
+        -   [3.5.1 Diagrama de secuencia del envío de mensajes](#DIAGRAMASECUENCIAENVIOMENSAJES)
     
-        -   [3.4.2 Diagrama de secuencia del cambio de tamaño del texto](#DIAGRAMASECUENCIACAMBIOTAMAÑO)
+        -   [3.5.2 Diagrama de secuencia del cambio de tamaño del texto](#DIAGRAMASECUENCIACAMBIOTAMAÑO)
 
     -   [3.6 DIAGRAMAS DE SECUENCIA DE LA APLICACIÓN](#DIAGRAMASECAPP)
 
@@ -431,12 +431,12 @@ Los diagramas de secuencia sirven para ver cómo interactúan entre si los difer
 
 A continuación se muestran los distintos diagramas de secuencia, con una breve explicación de cada uno de ellos:
 
-3.4.1 Diagrama de secuencia del envío de mensajes<a name="DIAGRAMASECUENCIAENVIOMENSAJES"></a>
+3.5.1 Diagrama de secuencia del envío de mensajes<a name="DIAGRAMASECUENCIAENVIOMENSAJES"></a>
 ----------------------------
 
 ![Diagrama de secuencia del envío de mensajes](https://github.com/Ramon62/firechat/blob/master/documentos/envioMensaje-DSecuencia.png)
 
-3.4.2 Diagrama de secuencia del cambio de tamaño del texto<a name="DIAGRAMASECUENCIACAMBIOTAMAÑO"></a>
+3.5.2 Diagrama de secuencia del cambio de tamaño del texto<a name="DIAGRAMASECUENCIACAMBIOTAMAÑO"></a>
 ----------------------------
 
 ![Diagrama de secuencia del cambio de tamaño del texto](https://github.com/Ramon62/firechat/blob/master/documentos/cambioTamañoTexto-%20DiagramaSecuencia.png)
